@@ -2,17 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Rishi Patel # the website title (if blank, full name will be used instead)
+title: "Rishi Patel - Mechanical Engineer" # the website title (if blank, full name will be used instead)
 first_name: Rishi
 middle_name: 
 last_name: Patel
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-description: Hello, My name is Rishi and I am currently in my first position out of college! 
+description: >
+Hello, My name is Rishi and I am currently in my first position out of college! 
 After 4 years of hard work, perseverance and late nights I am happy to say that I am working as an engineer at Navistar. 
 I started college not knowing what I wanted to do with my degree, and although I still have not find my passion, I know that I want to keep learning and developing my skills in every facet of engineering. 
 Outside of engineering I like to keep myself busy by working out, hiking, dancing, traveling and learning as much as I can about the world. 
-Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career!"
+Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
