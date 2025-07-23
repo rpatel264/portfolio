@@ -1,18 +1,14 @@
 {
   "name": "Jekyll Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/jekyll",
-
+  "image": "jekyll/jekyll:latest",
   "features": {
-  "ghcr.io/devcontainers-contrib/features/ruby:1": {
-    "version": "3.2.2"
+    "ghcr.io/devcontainers-contrib/features/ruby:1": {
+      "version": "3.2.2"
+    },
+    "ghcr.io/devcontainers-contrib/features/imagemagick:1": {},
+    "ghcr.io/devcontainers-contrib/features/prettier:1": {}
   },
-  "ghcr.io/devcontainers-contrib/features/imagemagick:1": {},
-  "ghcr.io/devcontainers-contrib/features/prettier:1": {}
-},
-
-
   "postAttachCommand": "./bin/entry_point.sh",
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -27,6 +23,6 @@
       }
     }
   },
-
   "remoteUser": "vscode"
 }
+
