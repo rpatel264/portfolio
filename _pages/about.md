@@ -33,6 +33,3 @@ Hello, my name is Rishi and I am currently in my first position out of college!
   Outside of engineering, I like to keep myself busy by working out, hiking, dancing, traveling, and learning as much as I can about the world.
   Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
