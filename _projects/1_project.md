@@ -17,10 +17,10 @@ Our team was tasked with redesigning, simulating, and prototyping a new cutting 
         {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
