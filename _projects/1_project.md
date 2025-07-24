@@ -26,8 +26,8 @@ Our team was tasked with redesigning, simulating, and prototyping a new cutting 
 <div class="caption">
     Along with researching optimal blade profiles and materials and evaluating the degradation patterns of current blades, we utilized CAD software to simulate different blade profiles and material combinations and created a prototype to test in related scenarios.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-auto mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladegif.gif" title="Blade Gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -50,20 +50,3 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
-
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
