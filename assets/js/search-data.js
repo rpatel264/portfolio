@@ -91,7 +91,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-cutoff-blade",
           title: 'Cutoff Blade',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
             },},{id: "projects-project-2",
