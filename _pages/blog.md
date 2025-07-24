@@ -15,6 +15,11 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
+{% if site.posts == empty %}
+<div style="text-align:center; margin-top:2rem;">
+  <em>Blog posts coming soon. Stay tuned!</em>
+</div>
+{% endif %}
 
 <div class="post">
 
