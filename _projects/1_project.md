@@ -24,7 +24,7 @@ Our team was tasked with redesigning, simulating, and prototyping a new cutting 
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Along with researching optimal blade profiles and materials and evaluating the degradation patterns of current blades, we utilized CAD software to simulate different blade profiles and material combinations and created a prototype to test in related scenarios.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
