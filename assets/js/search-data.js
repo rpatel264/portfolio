@@ -91,7 +91,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-cutoff-blade",
           title: 'Cutoff Blade',
-          description: "",
+          description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
             },},{id: "projects-project-2",
