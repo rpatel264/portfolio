@@ -37,6 +37,6 @@ latest_posts:
 ---
 
 📧 [Email](mailto:rishipatel264@gmail.com)  
-🔗 [LinkedIn](www.linkedin.com/in/rishipatel264)  
+🔗 [LinkedIn](https://www.linkedin.com/in/rishipatel264/)  
 📄 [Resume (PDF)](/assets/resume.pdf)
 
