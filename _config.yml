@@ -7,7 +7,7 @@ first_name: Rishi
 middle_name: 
 last_name: Patel
 contact_note: >
-  Feel free to email me or send me an invite on LinkedIn!
+  Feel free to email me or send me an invite on LinkedpaIn!
 description: >
   Hello, my name is Rishi and I am currently in my first position out of college!
   After 4 years of hard work, perseverance and late nights, I am happy to say that I am working as an engineer at Navistar.
@@ -103,7 +103,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
