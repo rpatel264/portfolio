@@ -14,13 +14,13 @@ Our team was tasked with redesigning, simulating, and prototyping a new cutting 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="Blade Profiles" class="img-fluid rounded z-depth-1" style = "height: 250px; object-fit: cover;"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.jpg" title="Finalized Profile" class="img-fluid rounded z-depth-1" style = "height: 250px; object-fit: cover;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.jpg" title="Aluminum Prototype" class="img-fluid rounded z-depth-1" style = "height: 250px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
