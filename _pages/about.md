@@ -13,7 +13,11 @@ profile:
    # 🔗 https://linkedin.com/in/rpatel264
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social:
+  linkedin: https://www.linkedin.com/in/rishipatel264/
+  github: https://github.com/rpatel264
+  email: mailto:rishipatel264@gmail.com
+
 
 announcements:
   enabled: false # includes a list of news items
