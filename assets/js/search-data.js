@@ -38,14 +38,14 @@ ninja.data = [{
             window.location.href = "/portfolio/repositories/";
           },
         },{id: "dropdown-dance-experience",
-              title: "Dance Experience",
+              title: "dance experience",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/portfolio/creative/dance/";
               },
             },{id: "dropdown-photography-galleries",
-              title: "Photography Galleries",
+              title: "photography galleries",
               description: "",
               section: "Dropdown",
               handler: () => {
