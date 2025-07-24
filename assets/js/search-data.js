@@ -493,6 +493,13 @@ ninja.data = [{
           window.open("mailto:%72%69%73%68%69%70%61%74%65%6C%32%36%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/rpatel264", "_blank");
+        },
+      },{
         id: 'social-https://www.linkedin.com/in/rishipatel264/',
         title: 'Https://www.linkedin.com/in/rishipatel264/',
         section: 'Socials',
