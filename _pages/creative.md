@@ -7,9 +7,9 @@ nav_order: 6              # position it after your other top-level links
 nav_title: Creative       # text that appears in the menu
 dropdown: true            # enables the dropdown behavior
 children:
-  - title: Dance Experience
+  - title: dance experience
     permalink: /creative/dance/
-  - title: Photography Galleries
+  - title: photography galleries
     permalink: /creative/photography/
 ---
 
