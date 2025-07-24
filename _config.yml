@@ -7,7 +7,7 @@ first_name: Rishi
 middle_name: 
 last_name: Patel
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to email me or send me an invite on LinkedIn!
 description: >
   Hello, my name is Rishi and I am currently in my first position out of college!
   After 4 years of hard work, perseverance and late nights, I am happy to say that I am working as an engineer at Navistar.
@@ -17,7 +17,7 @@ description: >
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
