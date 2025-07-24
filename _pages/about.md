@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    📧 Email: rpatel264@gmail.com  
-    🔗 [LinkedIn](https://linkedin.com/in/rpatel264)
+    📧 rishipatel264@gmail.com  
+    🔗 https://linkedin.com/in/rpatel264
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
