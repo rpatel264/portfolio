@@ -23,14 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/projects/";
           },
-        },{id: "nav-creative-endeavors",
-          title: "Creative Endeavors",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/portfolio/creative/";
-          },
-        },{id: "nav-repositories",
+        },{id: "dropdown-dance-experience",
+              title: "Dance Experience",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/portfolio/creative/dance/";
+              },
+            },{id: "dropdown-photography-galleries",
+              title: "Photography Galleries",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/portfolio/creative/photography/";
+              },
+            },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
