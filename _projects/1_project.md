@@ -5,7 +5,7 @@ description:
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 <div style="text-align: center;">
 Our team was tasked with redesigning, simulating, and prototyping a new cutting blade with the purpose of cutting conduit for the company sponsor Atkore.
