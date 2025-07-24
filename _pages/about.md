@@ -26,10 +26,12 @@ latest_posts:
   #limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, my name is Rishi and I am currently in my first position out of college!
+  Hello, my name is Rishi and I am currently in my first position out of college!
   After 4 years of hard work, perseverance and late nights, I am happy to say that I am working as an engineer at Navistar.<br>
+  
   I started college not knowing what I wanted to do with my degree, and although I still haven’t found my passion, I know that I want to keep learning and  
   developing my skills in every facet of engineering.<br>
+  
   Outside of engineering, I like to keep myself busy by working out, hiking, dancing, traveling, and learning as much as I can about the world.
   Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career.
 
