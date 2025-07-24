@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cutoff Blade
-description: with background image
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
