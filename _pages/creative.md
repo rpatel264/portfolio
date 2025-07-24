@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creative Endeavors
+title: creative endeavors
 permalink: /creative/
 nav: true                 # include this page in the navbar
 nav_order: 6              # position it after your other top-level links
