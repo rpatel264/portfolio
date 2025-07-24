@@ -9,7 +9,7 @@ related_publications: false
 ---
 <div style="text-align: center;">
 Our team was tasked with redesigning, simulating, and prototyping a new cutting blade with the purpose of cutting conduit for the company sponsor Atkore.
-<div>
+</div>
   
 
 <div class="row">
@@ -36,4 +36,4 @@ Our team was tasked with redesigning, simulating, and prototyping a new cutting 
 </div>
 <div style="text-align: center;">
 We finalized a new blade profile with optimal materials that we showcased with a prototype to the company sponsor. We also developed a base and outlined the next steps for another group to create more accurate simulations.
-<div>
+</div>
