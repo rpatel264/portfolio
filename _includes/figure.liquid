@@ -36,32 +36,17 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="100%"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
-        style="
-          {% if include['min-width'] %}
-            min-width: {{ include.min-width }};
-          {% endif %}
-          {% if include['min-height'] %}
-            min-height: {{ include.min-height }};
-          {% endif %}
-          {% if include['max-width'] %}
-            max-width: {{ include.max-width }};
-          {% endif %}
-          {% if include['max-height'] %}
-            max-height: {{ include.max-height }};
-          {% endif %}
-        "
-      {% endif %}
+      {% assign style_str = "" %}
+{% if include['min-width'] %}{% assign style_str = style_str | append: "min-width:{{ include['min-width'] }};" %}{% endif %}
+{% if include['min-height'] %}{% assign style_str = style_str | append: "min-height:{{ include['min-height'] }};" %}{% endif %}
+{% if include['max-width'] %}{% assign style_str = style_str | append: "max-width:{{ include['max-width'] }};" %}{% endif %}
+{% if include['max-height'] %}{% assign style_str = style_str | append: "max-height:{{ include['max-height'] }};" %}{% endif %}
+{% if include.style %}{% assign style_str = style_str | append: include.style %}{% endif %}
+
+{% if style_str != "" %}
+  style="{{ style_str }}"
+{% endif %}
+
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% endif %}
