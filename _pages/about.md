@@ -36,7 +36,7 @@ latest_posts:
   Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career.
 ---
 
-📧 [rpatel264@gmail.com](mailto:rpatel264@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/rpatel264)  
+📧 [Email](mailto:rishipatel264@gmail.com)  
+🔗 [LinkedIn](www.linkedin.com/in/rishipatel264)  
 📄 [Resume (PDF)](/assets/resume.pdf)
 
