@@ -500,11 +500,11 @@ ninja.data = [{
           window.open("https://github.com/rpatel264", "_blank");
         },
       },{
-        id: 'social-https://www.linkedin.com/in/rishipatel264/',
-        title: 'Https://www.linkedin.com/in/rishipatel264/',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/rishipatel264/", "_blank");
         },
       },{
         id: 'social-custom_social',
