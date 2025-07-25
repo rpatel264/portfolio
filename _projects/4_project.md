@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Walker Design Project
-description: Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.
+description: Collaborative design and prototyping of a blade-based conduit cutter for Atkore, integrated into a walking machine platform.
 img: assets/projectimages/walker/walkergimage.jpg
 importance: 4
 category: work
@@ -10,15 +10,13 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-Design, fabricate, test, analyze and optimize a walking machine with the following requirements:
-
-1. Two legs must be 4-bar linkages and two legs must be operated by cam linkages.
-
-2. A single electric motor powered by batteries using gears, belts, or chains must drive all 4 legs.
-
-3. The Walker size must fit inside a 30 cm3 cube.
-​
-4. A clear understanding of design optimization and lecture material must be demonstrated. 
+This project involved designing, prototyping, and optimizing a compact walking machine with a multi-linkage leg system. The core challenge was to integrate mechanical and motor systems that met the following constraints:
+  <br/><br/>
+  • Two legs must use 4-bar linkage mechanisms<br/>
+  • Two legs must be actuated via cam-based linkages<br/>
+  • All four legs powered by a single electric motor using belts, gears, or chains<br/>
+  • Entire walker must fit within a 30 cm³ cube<br/>
+  • Demonstrate understanding of mechanical optimization and design principles from coursework
 </div>
 
 <div class="row">
@@ -34,7 +32,8 @@ Design, fabricate, test, analyze and optimize a walking machine with the followi
 </div>
 
 <div class="caption">
-  Researched different 4-bar linkages/Cam designs. 3-D printed and laser cut different parts and made adjustments as necessary.
+We explored various linkage geometries through CAD modeling, laser cutting, and 3D printing. Designs were iteratively refined to improve balance, motion repeatability, and torque distribution across all four legs.
+</div>
 </div>
 
 <!-- 🖼️ Simulation Showcase -->
@@ -45,11 +44,11 @@ Design, fabricate, test, analyze and optimize a walking machine with the followi
   </div>
 </div>
 <div class="caption">
-This animation shows the walking pattern of the final design.
+Demonstration of the final walk cycle, showing coordinated leg movement powered by the motor system.
 </div>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-  We learned how to implement 4-bar linkages and Cam to create a walker. The walker traveled a distance of 8+ meters followed all requirements.
+The walker met all design constraints, traveled over 8 meters during testing, and reflected a deep understanding of mechanical kinematics. The project highlighted the importance of balancing theoretical optimization with real-world prototyping.
 </div>
