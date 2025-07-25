@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Cutoff Blade
+description: Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.
+img: assets/projectimages/blade/bladeandtube.jpg
+importance: 1
+category: work
+related_publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<!-- 🧭 Project Overview -->
+<h4 class="text-center mt-5">Project Overview</h4>
+<div class="text-center my-4">
+Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation. We used CAD and simulation tools to evaluate different blade geometries and material combinations. These visuals show the iterative design process and simulation insights.
+</div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="Blade Profiles" alt="Comparing multiple blade designs" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.jpg" title="Finalized Profile" alt="CAD model showing finalized blade profile" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.jpg" title="Aluminum Prototype" alt="Machined aluminum blade prototype" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 </div>
-```
+<div class="caption">
+  Blade designs were modeled in Solidworks, then evaluated in Ansys to compare stress distribution and edge retention across different profiles and materials.
+</div>
 
-{% endraw %}
+<!-- 🖼️ Simulation Showcase -->
+<h4 class="text-center mt-5">Simulation Showcase</h4>
+<div class="row justify-content-center">
+  <div class="col-sm-auto mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladegif.gif" title="Blade Simulation" alt="Animated simulation of blade stress testing" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+This animation shows simulation results generated with Solidworks and Ansys, analyzing deformation patterns during use.
+</div>
+
+<!-- 🔧 Final Outcome -->
+<h4 class="text-center mt-5">Final Outcome</h4>
+<div class="text-center my-4">
+  We finalized a new blade design using an optimized material profile and showcased the prototype to Atkore. We also built a base and prepared documentation to support further simulation refinement by future teams.
+</div>
