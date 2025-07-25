@@ -24,11 +24,10 @@ This project focused on evaluating how walking on inclined versus flat surfaces 
     {% include figure.liquid loading="eager" path="assets/projectimages/slope/graphdata.png" title="Aluminum Prototype" alt="Machined aluminum blade prototype" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 </div>
+
 <div class="caption">
 We recorded video footage of subjects walking on flat and sloped surfaces, then used motion tracking software to extract kinematic data. These datasets were imported into OpenSim, allowing us to create skeletal models and run dynamic simulations for each scenario. 
 </div>
-</div>
-
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
