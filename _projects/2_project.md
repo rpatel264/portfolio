@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Transmission Project
-description: Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.
+description: Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.
 img: assets/projectimages/transmission/CADassembly.png
 importance: 2
 category: work
@@ -10,7 +10,7 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-Our task was to design and build a 2 speed + idle transmission that could lift hanging weights through a forward and reverse speed at a controlled rate. We also created an idle/brake system that prevented the weight from falling.
+We were tasked with designing and fabricating a mechanical transmission capable of lifting suspended weights at two distinct speeds — one forward and one reverse — with the ability to hold the weight in place via an integrated idle/brake mechanism. The system required precise gear coordination to switch seamlessly between speed modes and lock motion when idle.
 </div>
 
 <div class="row">
@@ -25,12 +25,11 @@ Our task was to design and build a 2 speed + idle transmission that could lift h
   </div>
 </div>
 <div class="caption">
-  We researched different transmission mechanisms to ideate a system that would follow all the requirements, then created a working CAD model.
+The design process included brainstorming multiple gear configurations, selecting appropriate materials, and validating fit through CAD simulations before fabrication.
 </div>
-
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-  Created a working transmission that can lift up to 2kg at a controlled rate using 3D parts. 
+Our approach began with researching various mechanical transmission architectures, including planetary and spur gear systems. After iterating through several concepts, we selected a layout that met all performance and safety requirements, and developed a complete CAD model for analysis and fabrication. Finally creating a working transmission that can lift up to 2kg at a controlled rate using 3D parts. 
 </div>
