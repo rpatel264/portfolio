@@ -2,17 +2,14 @@
   type: map
   contents:
     - name: Rishi Patel
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
+    - name: 12/01/2002
+  
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelors
+      institution: University of Illinois, Urbana-Champaign
+      year: 2024
       description:
         - Description 1.
         - Description 2.
