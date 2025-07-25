@@ -10,14 +10,9 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation.
+Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation. We used CAD and simulation tools to evaluate different blade geometries and material combinations. These visuals show the iterative design process and simulation insights.
 </div>
 
-<!-- 🧠 Blade Design & Simulation -->
-<h4 class="text-center mt-5">Blade Design & Simulation</h4>
-<p class="text-center my-4">
-We used CAD and simulation tools to evaluate different blade geometries and material combinations. These visuals show the iterative design process and simulation insights.
-</p>
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="Blade Profiles" alt="Comparing multiple blade designs" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
