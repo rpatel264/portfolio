@@ -104,9 +104,9 @@ ninja.data = [{
           description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-cutoff-blade",
+          title: 'Cutoff Blade',
+          description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/4_project/";
             },},{id: "projects-project-5",
