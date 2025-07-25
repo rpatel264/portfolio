@@ -34,9 +34,3 @@ Our task was to design and build a 2 speed + idle transmission that could lift h
 <div class="text-center my-4">
   Created a working transmission that can lift up to 2kg at a controlled rate using 3D parts. 
 </div>
-
-<!-- 🚀 Summary -->
-<h4 class="text-center mt-5">Impact & Next Steps</h4>
-<p class="text-center">
-  We learned much about the design process specifically in regards to transmissions. 
-</p>
