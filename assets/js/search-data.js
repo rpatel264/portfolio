@@ -101,7 +101,7 @@ ninja.data = [{
               window.location.href = "/portfolio/projects/2_project/";
             },},{id: "projects-walking-gait-modeling",
           title: 'Walking Gait Modeling',
-          description: "Determine the effects of walking on sloped vs leveled surfaces on ones joint angles and torques",
+          description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
             },},{id: "projects-project-4",
