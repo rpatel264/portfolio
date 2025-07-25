@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Walking Gait Modeling
-description: Determine the effects of walking on sloped vs leveled surfaces on ones joint angles and torques
+description: Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.
 img: assets/projectimages/slope/skeletalmodel.png
 importance: 3
 category: work
@@ -10,8 +10,7 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-Our task was to determine the effects of walking on sloped vs leveled surfaces on ones joint angles and torques using OpenSim software. We generated data from OpenSim and used it to make conclusions.
-
+This project focused on evaluating how walking on inclined versus flat surfaces affects human joint mechanics. Using OpenSim, we simulated gait patterns to measure changes in joint angles and torque across different terrains.
 </div>
 
 <div class="row">
@@ -26,13 +25,14 @@ Our task was to determine the effects of walking on sloped vs leveled surfaces o
   </div>
 </div>
 <div class="caption">
-  Took videos of various subjects walking on different slopes, we then used tracking software and OpenSim to model the subjects and analyze the forces.
+We recorded video footage of subjects walking on flat and sloped surfaces, then used motion tracking software to extract kinematic data. These datasets were imported into OpenSim, allowing us to create skeletal models and run dynamic simulations for each scenario. 
+</div>
 </div>
 
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-Using OpenSim we were able to ascertain data from subjects using OpenSim and were able to come to final conclusions based on those results.
+Our simulations revealed key differences in joint loading and movement patterns when walking on inclined surfaces compared to level ground. This insight contributes to broader research in gait analysis and rehabilitation, especially for individuals with mobility impairments or post-injury recovery needs.
 </div>
 
