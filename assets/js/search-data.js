@@ -99,9 +99,9 @@ ninja.data = [{
           description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-walking-gait-modeling",
+          title: 'Walking Gait Modeling',
+          description: "Determine the effects of walking on sloped vs leveled surfaces on ones joint angles and torques",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
             },},{id: "projects-project-4",
