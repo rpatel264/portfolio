@@ -46,7 +46,7 @@ linkedin_username: https://www.linkedin.com/in/rishipatel264/ # your LinkedIn us
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-#resume:
+resume:
 logo: /assets/icons/resume-icon.svg  # Upload your own icon to assets/icons/
 title: Resume
   url: /assets/pdf/Rishi_Patel-Resume.pdf
