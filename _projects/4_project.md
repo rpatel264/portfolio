@@ -11,12 +11,12 @@ related_publications: false
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
 This project involved designing, prototyping, and optimizing a compact walking machine with a multi-linkage leg system. The core challenge was to integrate mechanical and motor systems that met the following constraints:
-  <br/><br/>
   • Two legs must use 4-bar linkage mechanisms<br/>
   • Two legs must be actuated via cam-based linkages<br/>
   • All four legs powered by a single electric motor using belts, gears, or chains<br/>
   • Entire walker must fit within a 30 cm³ cube<br/>
   • Demonstrate understanding of mechanical optimization and design principles from coursework
+   <br/><br/>
 </div>
 
 <div class="row">
@@ -33,7 +33,6 @@ This project involved designing, prototyping, and optimizing a compact walking m
 
 <div class="caption">
 We explored various linkage geometries through CAD modeling, laser cutting, and 3D printing. Designs were iteratively refined to improve balance, motion repeatability, and torque distribution across all four legs.
-</div>
 </div>
 
 <!-- 🖼️ Simulation Showcase -->
