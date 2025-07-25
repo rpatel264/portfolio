@@ -15,18 +15,7 @@
       institution: University of Illinois, Urbana-Champaign
       year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        Studied Mechanical Engineering
 
 - title: Experience
   type: time_table
