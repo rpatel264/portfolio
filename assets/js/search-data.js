@@ -94,9 +94,9 @@ ninja.data = [{
           description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-transmission-project",
+          title: 'Transmission Project',
+          description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
