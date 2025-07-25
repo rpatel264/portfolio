@@ -8,7 +8,6 @@ category: work
 related_publications: false
 ---
 <!-- 🧭 Project Overview -->
-<h4 class="mt-5">Project Overview</h4>
 <div class="text-center my-4">
   Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation.
 </div>
