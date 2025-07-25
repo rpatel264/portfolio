@@ -32,8 +32,9 @@ Design, fabricate, test, analyze and optimize a walking machine with the followi
     {% include figure.liquid loading="eager" path="assets/projectimages/walker/walkergimage.jpg" title="Aluminum Prototype" alt="Machined aluminum blade prototype" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 </div>
+
 <div class="caption">
-  Researched
+  Researched different 4-bar linkages/Cam designs. 3-D printed and laser cut different parts and made adjustments as necessary.
 </div>
 
 <!-- 🖼️ Simulation Showcase -->
@@ -44,11 +45,11 @@ Design, fabricate, test, analyze and optimize a walking machine with the followi
   </div>
 </div>
 <div class="caption">
-This animation shows simulation results generated with Solidworks and Ansys, analyzing deformation patterns during use.
+This animation shows the walking pattern of the final design.
 </div>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-  We finalized a new blade design using an optimized material profile and showcased the prototype to Atkore. We also built a base and prepared documentation to support further simulation refinement by future teams.
+  We learned how to implement 4-bar linkages and Cam to create a walker. The walker traveled a distance of 8+ meters followed all requirements.
 </div>
