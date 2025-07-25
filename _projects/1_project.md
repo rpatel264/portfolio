@@ -53,6 +53,6 @@ related_publications: false
 <!-- 🚀 Summary -->
 <h4 class="mt-5">Impact & Next Steps</h4>
 <p class="text-center">
-  This project contributed to Atkore’s ongoing efforts to improve conduit manufacturing. View the full report <a href="LINK">here</a> or browse more projects <a href="/portfolio">on my portfolio</a>.
+  This project contributed to Atkore’s ongoing efforts to improve conduit manufacturing. 
 </p>
 
