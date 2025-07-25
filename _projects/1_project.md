@@ -8,13 +8,13 @@ category: work
 related_publications: false
 ---
 <!-- 🧭 Project Overview -->
-<h4 class="mt-5">Project Overview</h4>
+<h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
 Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation.
 </div>
 
 <!-- 🧠 Blade Design & Simulation -->
-<h4 class="mt-5">Blade Design & Simulation</h4>
+<h4 class="text-center mt-5">Blade Design & Simulation</h4>
 <p class="text-center my-4">
 We used CAD and simulation tools to evaluate different blade geometries and material combinations. These visuals show the iterative design process and simulation insights.
 </p>
@@ -34,7 +34,7 @@ We used CAD and simulation tools to evaluate different blade geometries and mate
 </div>
 
 <!-- 🖼️ Simulation Showcase -->
-<h4 class="mt-5">Simulation Showcase</h4>
+<h4 class="text-center mt-5">Simulation Showcase</h4>
 <div class="row justify-content-center">
   <div class="col-sm-auto mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladegif.gif" title="Blade Simulation" alt="Animated simulation of blade stress testing" class="img-fluid rounded z-depth-1" %}
@@ -45,13 +45,13 @@ This animation shows simulation results generated with Solidworks and Ansys, ana
 </div>
 
 <!-- 🔧 Final Outcome -->
-<h4 class="mt-5">Final Outcome</h4>
+<h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
   We finalized a new blade design using an optimized material profile and showcased the prototype to Atkore. We also built a base and prepared documentation to support further simulation refinement by future teams.
 </div>
 
 <!-- 🚀 Summary -->
-<h4 class="mt-5">Impact & Next Steps</h4>
+<h4 class="text-center mt-5">Impact & Next Steps</h4>
 <p class="text-center">
   This project contributed to Atkore’s ongoing efforts to improve conduit manufacturing. 
 </p>
