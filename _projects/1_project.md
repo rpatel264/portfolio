@@ -45,9 +45,4 @@ This animation shows simulation results generated with Solidworks and Ansys, ana
   We finalized a new blade design using an optimized material profile and showcased the prototype to Atkore. We also built a base and prepared documentation to support further simulation refinement by future teams.
 </div>
 
-<!-- 🚀 Summary -->
-<h4 class="text-center mt-5">Impact & Next Steps</h4>
-<p class="text-center">
-  This project contributed to Atkore’s ongoing efforts to improve conduit manufacturing. 
-</p>
 
