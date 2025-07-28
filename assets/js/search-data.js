@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/projects/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/cv/";
+          },
         },{id: "nav-blog",
           title: "blog",
           description: "",
@@ -115,6 +122,34 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/rishipatel264/", "_blank");
+        },
+      },{
+        id: 'social-resume',
+        title: 'Resume',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-logo',
+        title: 'Logo',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-title',
+        title: 'Title',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-url',
+        title: 'Url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
