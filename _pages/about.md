@@ -42,5 +42,5 @@ latest_posts:
 
 📧 [Email](mailto:rishipatel264@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/rishipatel264/)  
-📄 [Resume (PDF)](/assets/resume.pdf)
+📄 [Resume (PDF)](/assets/pdf/Rishi_Patel-Resume.pdf)
 
