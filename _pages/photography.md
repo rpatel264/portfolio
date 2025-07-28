@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photography Galleries
+title: Photography Gallery
 permalink: /creative/photography/
 nav: false
 ---
