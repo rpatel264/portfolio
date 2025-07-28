@@ -38,6 +38,7 @@ latest_posts:
   
   Outside of engineering, I like to keep myself busy by working out, hiking, dancing, traveling, and learning as much as I can about the world.
   Always striving to learn more and gain new experiences, I hope to bring my passion for engineering and creativity to my career.
+  
 ---
 
 📧 [Email](mailto:rishipatel264@gmail.com)  
