@@ -40,12 +40,12 @@
       institution: Abbott Research Park
       year: 2022 - 2023
 
-- title: Projects/Research
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://rpatel264.github.io/portfolio/projects/">al-folio</a>
+    - title: <Projects="https://rpatel264.github.io/portfolio/projects/">al-folio</a>
       year: 2020 - Current
-      description: All relevant Projects and Research
+      description: All relevant Projects
 
 
 - title: Other Interests
