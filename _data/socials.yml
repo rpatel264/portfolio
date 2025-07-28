@@ -49,7 +49,7 @@ linkedin_username: https://www.linkedin.com/in/rishipatel264/ # your LinkedIn us
 resume:
 logo: /assets/icons/resume-icon.svg  # Upload your own icon to assets/icons/
 title: Resume
-  url: /assets/pdf/Rishi_Patel-Resume.pdf
+url: /assets/pdf/Rishi_Patel-Resume.pdf
 #custom_social: # can be any name here other than the ones already defined above
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: Custom Social
