@@ -1,0 +1,14 @@
+---
+layout: page
+title: 7-22
+permalink: /creative/7-22/
+nav: false
+---
+
+# 🌄 7-22
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+  <img src="/portfolio/assets/Photography/landscapes/img1.jpg" alt="..." style="width: 100%;">
+  <img src="/portfolio/assets/Photography/landscapes/img2.jpg" alt="..." style="width: 100%;">
+  <img src="/portfolio/assets/Photography/landscapes/img3.jpg" alt="..." style="width: 100%;">
+</div>
