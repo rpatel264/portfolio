@@ -5,7 +5,7 @@ permalink: /creative/photography/
 description:
 nav: false
 nav_order: 3
-display_categories: [2024, 2023]  # Optional: update as needed
+display_categories: [2025]  # Optional: update as needed
 horizontal: false
 ---
 <!-- DEBUG: list all gallery items -->
