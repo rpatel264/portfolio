@@ -22,7 +22,7 @@ layout: default
       {% assign ext = image.extname | downcase %}
       {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' %}
         <div class="gallery-item">
-          <img src="{{ image.path }}" alt="{{ image.name }}">
+            <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
         </div>
       {% endif %}
     {% endfor %}
