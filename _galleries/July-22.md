@@ -6,4 +6,5 @@ importance: 1
 description: Nature and city shots from July 22, 2025.
 img: /assets/photo_gallery/July22nd/DSC00040.JPG
 permalink: /creative/photography/July-22/
+folder: July22nd
 ---
