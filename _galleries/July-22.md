@@ -5,5 +5,5 @@ category: 2025
 importance: 1
 description: Nature and city shots from July 22, 2025.
 image: /assets/photo_gallery/July22nd/DSC00040.JPG
-permalink: /creative/photography/7-22/
+permalink: /creative/photography/July-22/
 ---
