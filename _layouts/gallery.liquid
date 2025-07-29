@@ -9,11 +9,11 @@ layout: default
   {% assign gallery_folder = page.folder %}
   {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/photo_gallery/' and file.path contains gallery_folder" %}
   
-  {% for image in images %}
-    {% if image.extname == '.jpg' or image.extname == '.png' or image.extname == '.jpeg' %}
-      <div class="gallery-item">
-        <img src="{{ image.path }}" alt="{{ image.name }}">
-      </div>
-    {% endif %}
+  <h2>Debug Output:</h2>
+<ul>
+  {% for file in site.static_files %}
+    <li>{{ file.path }}</li>
   {% endfor %}
+</ul>
+
 </div>
