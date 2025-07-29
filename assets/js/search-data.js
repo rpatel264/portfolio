@@ -75,7 +75,7 @@ ninja.data = [{
           title: 'July 22, 2025',
           description: "Nature and city shots from July 22, 2025.",
           section: "Galleries",handler: () => {
-              window.location.href = "/portfolio/creative/photography/7-22/";
+              window.location.href = "/portfolio/creative/photography/July-22/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
