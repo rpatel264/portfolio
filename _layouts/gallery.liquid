@@ -11,20 +11,21 @@ layout: default
   {% assign images = site.static_files | where_exp: "file", "file.path contains path_fragment" %}
   
   <h2>Debug Output:</h2>
-<ul>
-  {% for file in site.static_files %}
-    <li>{{ file.path }}</li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for file in site.static_files %}
+      <li>{{ file.path }}</li>
+    {% endfor %}
+  </ul>
 
-<div class="gallery-grid">
-  {% for image in images %}
-    {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' %}
-      <div class="gallery-item">
-        <img src="{{ image.path }}" alt="{{ image.name }}">
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+  <div class="gallery-grid">
+    {% for image in images %}
+      {% assign ext = image.extname | downcase %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' %}
+        <div class="gallery-item">
+          <img src="{{ image.path }}" alt="{{ image.name }}">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
 </div>
