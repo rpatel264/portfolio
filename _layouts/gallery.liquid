@@ -7,7 +7,7 @@ layout: default
 
 <div class="gallery-grid">
   {% assign gallery_folder = page.folder %}
-  {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/photos/' | append: gallery_folder" %}
+  {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/photo_gallery/' | append: gallery_folder" %}
   
   {% for image in images %}
     {% if image.extname == '.jpg' or image.extname == '.png' or image.extname == '.jpeg' %}
