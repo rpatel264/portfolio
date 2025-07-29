@@ -28,4 +28,12 @@ layout: default
     {% endfor %}
   </div>
 
+<h2>Selected Images:</h2>
+<ul>
+  {% for image in images %}
+    <li>{{ image.path }} (ext: {{ image.extname }})</li>
+  {% endfor %}
+</ul>
+
+
 </div>
