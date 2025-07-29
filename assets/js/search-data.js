@@ -71,6 +71,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/portfolio/books/the_godfather/";
+            },},{id: "galleries-7-22",
+          title: '7-22',
+          description: "Nature and city shots from March–May.",
+          section: "Galleries",handler: () => {
+              window.location.href = "/portfolio/creative/photography/spring-2024/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
