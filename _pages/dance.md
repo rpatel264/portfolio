@@ -13,7 +13,10 @@ I was the captain of Illini Raas, a competitive cultural dance team at the Unive
 
 ## 🪩 Team and Theme
 
-![Team Performing](/portfolio/assets/Raas/raas1.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas1.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
+
 
 Each season we created a full 7-minute performance combining choreography, storytelling, and large-scale **stage props**. For our “**Space**” theme, we designed an entire interstellar world — with functional backdrops, moon props, planets, and even an alien spaceship.
 
@@ -30,7 +33,10 @@ We used **plastic tiles**, folded PVC structures, and modular cardboard cutouts 
 
 ## 🛰️ Custom Moon Prop
 
-![Moon Prop](/portfolio/assets/Raas/raas2.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas2.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
+
 
 To move a cardboard **moon** smoothly across stage, we repurposed a rolling coat rack as a stabilizing chassis. This let us transport the moon easily and move it smoothly during the performance.
 
@@ -38,7 +44,10 @@ To move a cardboard **moon** smoothly across stage, we repurposed a rolling coat
 
 ## 🧩 CAD Modeling for Prop Design
 
-![AutoCAD Screenshot](/portfolio/assets/Raas/raas3.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas3.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
+
 
 All props were designed in **AutoCAD**, with full-scale dimensioned drawings printed to serve as cutting templates. This allowed for accurate, replicable prop construction and made visualizing scale easier for the team.
 
@@ -46,7 +55,10 @@ All props were designed in **AutoCAD**, with full-scale dimensioned drawings pri
 
 ## 🪐 Planet Display System
 
-![PVC Planet Structure](/portfolio/assets/Raas/raas4.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas4.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
+
 
 We used a **PVC frame** that doubled as:
 - A shelf for displaying planet props
@@ -57,7 +69,9 @@ We used a **PVC frame** that doubled as:
 
 ## 👽 The Alien Ship
 
-![Alien Ship](/portfolio/assets/Raas/raas5.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas5.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
 
 A centerpiece of our set: an **“alien ship”** that descended from the rafters using rigging and ropes. We constructed the outer shell using layered strips of **green tulle** to create a semi-opaque curtain — hiding dancers until the reveal moment.
 
@@ -65,7 +79,10 @@ A centerpiece of our set: an **“alien ship”** that descended from the rafter
 
 ## 🧞 Genie Shadow (Previous Year: Aladdin Theme)
 
-![Genie Shadow](/portfolio/assets/Raas/raas6.png)
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/portfolio/assets/Raas/raas6.png" alt="Team Performing" style="max-width: 100%; height: auto;" />
+</div>
+
 
 For our Aladdin-themed performance, we created a **Genie shadow effect** using:
 - A backlit silhouette cutout
