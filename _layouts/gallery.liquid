@@ -17,14 +17,14 @@ layout: default
   {% endfor %}
 </ul>
 
-<h2>Gallery Images:</h2>
 <div class="gallery-grid">
   {% for image in images %}
-    <div class="gallery-item">
-      <img src="{{ image.path }}" alt="{{ image.name }}">
-    </div>
+    {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' %}
+      <div class="gallery-item">
+        <img src="{{ image.path }}" alt="{{ image.name }}">
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
-
 
 </div>
