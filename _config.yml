@@ -161,6 +161,9 @@ collections:
     output: true
   projects:
     output: true
+  galleries:
+    output: true
+    permalink: /creative/photo/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
