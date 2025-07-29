@@ -17,11 +17,14 @@ layout: default
   {% endfor %}
 </ul>
 
-<h2>Filtered Images:</h2>
-<ul>
+<h2>Gallery Images:</h2>
+<div class="gallery-grid">
   {% for image in images %}
-    <li>{{ image.path }}</li>
+    <div class="gallery-item">
+      <img src="{{ image.path }}" alt="{{ image.name }}">
+    </div>
   {% endfor %}
-</ul>
+</div>
+
 
 </div>
