@@ -17,4 +17,11 @@ layout: default
   {% endfor %}
 </ul>
 
+<h2>Filtered Images:</h2>
+<ul>
+  {% for image in images %}
+    <li>{{ image.path }}</li>
+  {% endfor %}
+</ul>
+
 </div>
