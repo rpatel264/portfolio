@@ -99,5 +99,5 @@ My time with Illini Raas helped me develop not just as a performer, but also as 
 
 ---
 
-> 📸 More photos coming soon!
+
 
