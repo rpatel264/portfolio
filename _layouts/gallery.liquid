@@ -7,7 +7,8 @@ layout: default
 
 <div class="gallery-grid">
   {% assign gallery_folder = page.folder %}
-  {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/photo_gallery/' and file.path contains gallery_folder" %}
+  {% assign path_fragment = '/assets/photo_gallery/' | append: gallery_folder %}
+  {% assign images = site.static_files | where_exp: "file", "file.path contains path_fragment" %}
   
   <h2>Debug Output:</h2>
 <ul>
