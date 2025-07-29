@@ -71,11 +71,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/portfolio/books/the_godfather/";
-            },},{id: "galleries-7-22",
-          title: '7-22',
-          description: "Nature and city shots from March–May.",
+            },},{id: "galleries-july-22-2025",
+          title: 'July 22, 2025',
+          description: "Nature and city shots from July 22, 2024.",
           section: "Galleries",handler: () => {
-              window.location.href = "/portfolio/creative/photography/spring-2024/";
+              window.location.href = "/portfolio/creative/photography/7-22/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
