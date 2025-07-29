@@ -163,7 +163,7 @@ collections:
     output: true
   galleries:
     output: true
-    permalink: /creative/photo/:name/
+    permalink: /creative/photography/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
