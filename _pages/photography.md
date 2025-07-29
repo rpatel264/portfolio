@@ -8,6 +8,12 @@ nav_order: 3
 display_categories: [2024, 2023]  # Optional: update as needed
 horizontal: false
 ---
+<!-- DEBUG: list all gallery items -->
+<ul>
+  {% for g in site.galleries %}
+    <li>{{ g.title }} — URL: {{ g.url }}</li>
+  {% endfor %}
+</ul>
 
 <!-- pages/photography.md -->
 <div class="projects">
