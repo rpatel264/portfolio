@@ -8,6 +8,9 @@ nav_order: 3
 display_categories: [2025]  # Optional: update as needed
 horizontal: false
 ---
+<p>Direct image test:</p>
+<img src="/assets/photo_gallery/July22nd/DSC00040.JPG" alt="test image" style="max-width:300px;">
+
 <p>Gallery count: {{ site.galleries | size }}</p>
 <!-- DEBUG: list all gallery items -->
 <ul>
