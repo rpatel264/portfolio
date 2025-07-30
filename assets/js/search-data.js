@@ -92,6 +92,11 @@ ninja.data = [{
           description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
+            },},{id: "projects-transmission-project",
+          title: 'Transmission Project',
+          description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
