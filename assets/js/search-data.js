@@ -92,11 +92,6 @@ ninja.data = [{
           description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
-            },},{id: "projects-walker-design-project",
-          title: 'Walker Design Project',
-          description: "Collaborative design and prototyping of a blade-based conduit cutter for Atkore, integrated into a walking machine platform.",
-          section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
