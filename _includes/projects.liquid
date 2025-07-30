@@ -4,7 +4,7 @@
       <p>Image path: {{ project.img }}</p>
       {% if project.img %}
         <img 
-          src="{{ project.img | relative_url }}" 
+          src="{{ site.baseurl }}{{ project.img }}" 
           alt="{{ project.title }}" 
           class="card-img-top img-fluid" 
           style="max-height:200px; object-fit:cover;"
