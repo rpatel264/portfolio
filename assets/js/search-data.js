@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/portfolio/";
     },
   },{id: "nav-projects",
-          title: "Projects",
+          title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
