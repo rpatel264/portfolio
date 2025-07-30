@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 title: photography
 permalink: /creative/photography/
 description:
