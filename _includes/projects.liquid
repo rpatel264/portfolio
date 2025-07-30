@@ -1,6 +1,6 @@
 <div class="card project-card mb-4">
   {% if project.img %}
-    <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
+    <a href="{{ project.url | relative_url }}" target="_blank" rel="noopener noreferrer">
       <img src="{{ project.img }}" alt="{{ project.alt }}" class="card-img-top img-fluid rounded">
     </a>
   {% endif %}
@@ -9,9 +9,7 @@
     {% if project.description %}
       <p class="card-text">{{ project.description }}</p>
     {% endif %}
-    {% if project.link %}
-      <a href="{{ project.link }}" class="btn btn-outline-primary" target="_blank">View Project</a>
-    {% endif %}
+    <a href="{{ project.url | relative_url }}" class="btn btn-outline-primary" target="_blank">View Project</a>
   </div>
 </div>
 
