@@ -3,13 +3,11 @@
     <div class="card h-100 hoverable">
       {% if project.img %}
        <img 
-  src="{{ project.img | relative_url }}" 
-  alt="{{ project.title }}" 
-  class="card-img-top img-fluid" 
-  style="max-height:200px; object-fit:cover;"
->
-
-
+         src="{{ project.img | relative_url }}" 
+         alt="{{ project.title }}" 
+         class="card-img-top img-fluid" 
+         style="max-height:200px; object-fit:cover;"
+       >
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
