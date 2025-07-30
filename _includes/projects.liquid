@@ -3,27 +3,36 @@
     <div class="card h-100 hoverable project-card mb-4">
       {% if project.img %}
         {% include figure.liquid
-  loading="lazy"
-  path=project.img
-  alt=project.alt
-  class="card-img-top img-fluid rounded"
-  style="width: 100%; height: auto; border-radius: 6px;"
-%}
-
+          loading="lazy"
+          path=project.img
+          alt=project.alt
+          class="card-img-top img-fluid rounded"
+          style="width: 100%; height: auto; border-radius: 6px;"
+        %}
       {% endif %}
       <div class="card-body">
-        <h5 class="card-title">{{ project.title }}</h5>
+        <h2 class="card-title">{{ project.title }}</h2>
         {% if project.description %}
           <p class="card-text">{{ project.description }}</p>
         {% endif %}
-        {% if project.url %}
-          <a href="{{ project.url | relative_url }}" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-        {% endif %}
-        {% if project.github %}
-          <a href="{{ project.github }}" class="btn btn-outline-dark ml-2" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-        {% endif %}
+        <div class="d-flex flex-wrap mt-2">
+          {% if project.url %}
+            <a href="{{ project.url | relative_url }}" class="btn btn-outline-primary mr-2 mb-2" target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
+          {% endif %}
+          {% if project.github %}
+            <a href="{{ project.github }}" class="btn btn-outline-dark mb-2" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            {% if project.github_stars %}
+              <span class="stars ml-2" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fa-solid fa-star"></i>
+                <span id="{{ project.github_stars }}-stars"></span>
+              </span>
+            {% endif %}
+          {% endif %}
+        </div>
       </div>
     </div>
   </a>
