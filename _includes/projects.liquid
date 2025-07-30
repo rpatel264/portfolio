@@ -1,13 +1,12 @@
-<div class="col">
+<div class="col mb-4">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable project-card mb-4">
+    <div class="card h-100 hoverable project-card">
       {% if project.img %}
         {% include figure.liquid
           loading="lazy"
           path=project.img
           alt=project.alt
-          class="card-img-top img-fluid rounded"
-          style="width: 100%; height: auto; border-radius: 6px;"
+          class="card-img-top"
         %}
       {% endif %}
       <div class="card-body">
@@ -15,22 +14,18 @@
         {% if project.description %}
           <p class="card-text">{{ project.description }}</p>
         {% endif %}
-        <div class="d-flex flex-wrap mt-2">
-          {% if project.url %}
-            <a href="{{ project.url | relative_url }}" class="btn btn-outline-primary mr-2 mb-2" target="_blank" rel="noopener noreferrer">
-              View Project
+        <div class="mt-2">
+          {% if project.github %}
+            <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer"
+               class="text-dark mr-2" data-toggle="tooltip" title="GitHub Repository">
+              <i class="fab fa-github fa-lg"></i>
             </a>
           {% endif %}
-          {% if project.github %}
-            <a href="{{ project.github }}" class="btn btn-outline-dark mb-2" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github"></i> GitHub
+          {% if project.url %}
+            <a href="{{ project.url | relative_url }}" target="_blank" rel="noopener noreferrer"
+               class="text-primary" data-toggle="tooltip" title="Project Demo">
+              <i class="fas fa-external-link-alt fa-lg"></i>
             </a>
-            {% if project.github_stars %}
-              <span class="stars ml-2" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fa-solid fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-            {% endif %}
           {% endif %}
         </div>
       </div>
