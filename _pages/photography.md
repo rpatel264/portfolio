@@ -8,6 +8,7 @@ nav_order: 3
 display_categories: [2025]  # Optional: update as needed
 horizontal: false
 ---
+<p>Gallery count: {{ site.galleries | size }}</p>
 <!-- DEBUG: list all gallery items -->
 <ul>
   {% for g in site.galleries %}
