@@ -21,9 +21,11 @@ layout: default
     {% for image in images %}
       {% assign ext = image.extname | downcase %}
       {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' %}
-        <div class="gallery-item">
-            <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
-        </div>
+        {% include photo_card.liquid
+   src=image.path
+   alt=image.name
+%}
+
       {% endif %}
     {% endfor %}
   </div>
