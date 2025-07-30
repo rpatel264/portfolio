@@ -1,7 +1,7 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
-      <p>Image path: {{ project.img }}</p>
+
       {% if project.img %}
         <img 
           src="{{ site.baseurl }}{{ project.img }}" 
@@ -14,25 +14,24 @@
           <span style="color:#888;">No image available</span>
         </div>
       {% endif %}
+
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
-        <!-- GitHub section -->
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
+
+        {% if project.github %}
+          <div class="github-icon d-flex align-items-center gap-2">
+            <a href="{{ project.github }}" data-toggle="tooltip" title="Code Repository">
+              <i class="fa-brands fa-github gh-icon"></i>
+            </a>
+            {% if project.github_stars %}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fa-solid fa-star"></i>
+                <span id="{{ project.github_stars }}-stars"></span>
+              </span>
+            {% endif %}
+          </div>
+        {% endif %}
       </div>
     </div>
   </a>
