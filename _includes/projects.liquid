@@ -1,21 +1,17 @@
-<div class="col">
-  <div class="card h-100 hoverable">
-    {% if include.project.img %}
-      <img src="{{ site.baseurl }}{{ include.project.img }}" alt="{{ include.project.title }}" class="card-img-top img-fluid" style="max-height:200px; object-fit:cover;">
+<div class="card project-card mb-4">
+  {% if project.img %}
+    <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ project.img }}" alt="{{ project.alt }}" class="card-img-top img-fluid rounded">
+    </a>
+  {% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{ project.title }}</h5>
+    {% if project.description %}
+      <p class="card-text">{{ project.description }}</p>
     {% endif %}
-
-    <div class="card-body">
-      <h2 class="card-title">{{ include.project.title }}</h2>
-      <p class="card-text">{{ include.project.description }}</p>
-
-      {% if include.project.github %}
-        <a href="{{ include.project.github }}" data-toggle="tooltip" title="Code Repository">
-          <i class="fa-brands fa-github gh-icon"></i>
-        </a>
-      {% endif %}
-    </div>
+    {% if project.link %}
+      <a href="{{ project.link }}" class="btn btn-outline-primary" target="_blank">View Project</a>
+    {% endif %}
   </div>
 </div>
-
-
 
