@@ -39,7 +39,11 @@
     - title: Intern
       institution: Abbott Research Park
       year: August 2022 - May 2023
-
+      description:
+        - Developed Power BI dashboards for MBR Project Reviews to streamline data entry processes allowing engineers to input their findings seamlessly
+        - Used iRCE system to support mapping meetings and project improvements, leading to smoother goal tracking and project reporting
+        - Created job aids for engineers to efficiently navigate the updated iRCE system so that updating data, schematics, drawings, analysis and programs are more intuitive
+        
 - title: Research
   type: time_table
   contents:
