@@ -40,3 +40,44 @@ layout: default
     {% endif %}
   {% endfor %}
 </div>
+
+<style>
+  #zoom-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+  }
+
+  #zoom-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+</style>
+
+<div id="zoom-overlay" onclick="this.style.display='none'">
+  <img src="" alt="Zoomed image" />
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const zoomableImages = document.querySelectorAll('.zoomable-img');
+    const overlay = document.getElementById('zoom-overlay');
+    const zoomedImg = overlay.querySelector('img');
+
+    zoomableImages.forEach(img => {
+      img.addEventListener('click', () => {
+        zoomedImg.src = img.src;
+        overlay.style.display = 'flex';
+      });
+    });
+  });
+</script>
+
