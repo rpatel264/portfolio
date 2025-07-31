@@ -37,8 +37,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/portfolio/creative/dance/";
               },
-            },{id: "dropdown-photography-galleries",
-              title: "photography galleries",
+            },{id: "dropdown-photography",
+              title: "photography",
               description: "",
               section: "Dropdown",
               handler: () => {
