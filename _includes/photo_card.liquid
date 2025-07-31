@@ -1,8 +1,3 @@
 <div class="gallery-item">
-  <details>
-    <summary>
-      <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" style="max-width: 100%; height: auto; cursor: zoom-in;" />
-    </summary>
-    <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" style="max-width: 100%; height: auto; margin-top: 8px;" />
-  </details>
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" class="zoomable-img" />
 </div>
