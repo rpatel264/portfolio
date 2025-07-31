@@ -8,3 +8,4 @@ img: /portfolio/assets/photo_gallery/July22nd/DSC00040.JPG
 permalink: /creative/photography/July-22/
 folder: July22nd
 ---
+if youre reading this, the page built successfully!
