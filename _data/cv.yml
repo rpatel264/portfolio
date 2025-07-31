@@ -58,9 +58,9 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://rpatel264.github.io/portfolio/projects/">Link to project page</a>
+    - title: All Relevant Projects
       year: 2020 - Current
-      description: All relevant projects
+      description: <a href="https://rpatel264.github.io/portfolio/projects/">Link to project page</a>
       
 - title: Additional Activities
   type: time_table
