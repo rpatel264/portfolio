@@ -1,90 +1,89 @@
 <ul class="card-text font-weight-light list-group list-group-flush time-table">
   {% for content in entry.contents %}
     <li class="list-group-item item">
-      <div class="item-container" style="display: flex; flex-wrap: wrap;">
+      <div class="content-block" style="display: flex; flex-direction: column;">
+
         {% if content.year %}
-          <div class="year-container" style="min-width: 75px; margin-right: 1rem;">
+          <div class="year-location" style="margin-bottom: 0.5rem;">
             <span class="badge font-weight-bold danger-color-dark text-uppercase year">
               {{- content.year -}}
             </span>
             {% if content.location %}
-              <p class="location" style="font-size: 0.8em;">
+              <span class="location" style="margin-left: 1rem; font-size: 0.85em;">
                 <i class="fa-solid fa-location-dot iconlocation"></i>
                 {{ content.location }}
-              </p>
+              </span>
             {% endif %}
           </div>
         {% endif %}
 
-        <div class="content-container" style="flex: 1;">
-          {% if content.title %}
-            <h6 class="title font-weight-bold">{{ content.title }}</h6>
-          {% endif %}
+        {% if content.title %}
+          <h6 class="title font-weight-bold">{{ content.title }}</h6>
+        {% endif %}
 
-          {% if content.institution %}
-            <p class="institution"><i class="fa-solid fa-building-columns iconinstitution"></i> {{ content.institution }}</p>
-          {% endif %}
+        {% if content.institution %}
+          <p class="institution"><i class="fa-solid fa-building-columns iconinstitution"></i> {{ content.institution }}</p>
+        {% endif %}
 
-          {% if content.maindescription %}
-            <div>{{ content.maindescription }}</div>
-          {% endif %}
+        {% if content.maindescription %}
+          <div>{{ content.maindescription }}</div>
+        {% endif %}
 
-          {% if content.description %}
-            <ul class="items">
-              {% for item in content.description %}
-                <li>
-                  {% if item.contents %}
-                    <span class="item-title">{{ item.title }}</span>
-                    <ul class="subitems">
-                      {% for subitem in item.contents %}
-                        <li><span class="subitem">{{ subitem }}</span></li>
-                      {% endfor %}
-                    </ul>
-                  {% else %}
-                    <span class="item">{{ item }}</span>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-
-          {% if content.items %}
-            <ul class="items">
-              {% for item in content.items %}
-                <li>
-                  {% if item.contents %}
-                    <span class="item-title">{{ item.title }}</span>
-                    <ul class="subitems">
-                      {% for subitem in item.contents %}
-                        <li><span class="subitem">{{ subitem }}</span></li>
-                      {% endfor %}
-                    </ul>
-                  {% else %}
-                    <span class="item">{{ item }}</span>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-
-          {% if content.linkitems %}
-            <div class="container-links">
-              {% for item in content.linkitems %}
-                {% if item.link %}
-                  <div class="container-link-button">
-                    {% if item.linkname %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
-                    {% else %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
-                    {% endif %}
-                  </div>
+        {% if content.description %}
+          <ul class="items">
+            {% for item in content.description %}
+              <li>
+                {% if item.contents %}
+                  <span class="item-title">{{ item.title }}</span>
+                  <ul class="subitems">
+                    {% for subitem in item.contents %}
+                      <li><span class="subitem">{{ subitem }}</span></li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <span class="item">{{ item }}</span>
                 {% endif %}
-              {% endfor %}
-            </div>
-          {% endif %}
-        </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if content.items %}
+          <ul class="items">
+            {% for item in content.items %}
+              <li>
+                {% if item.contents %}
+                  <span class="item-title">{{ item.title }}</span>
+                  <ul class="subitems">
+                    {% for subitem in item.contents %}
+                      <li><span class="subitem">{{ subitem }}</span></li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <span class="item">{{ item }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if content.linkitems %}
+          <div class="container-links">
+            {% for item in content.linkitems %}
+              {% if item.link %}
+                <div class="container-link-button">
+                  {% if item.linkname %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
+                  {% else %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+        
       </div>
     </li>
   {% endfor %}
 </ul>
-
