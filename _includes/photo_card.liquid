@@ -1,8 +1,8 @@
 <div class="gallery-item">
-  <img 
-    src="{{ site.baseurl }}{{ include.src }}" 
-    alt="{{ include.alt | default: 'Gallery image' }}" 
-    class="img-fluid" 
-    style="max-height:300px; object-fit:cover;"
-  >
+  <details>
+    <summary>
+      <img src="{{ include.src }}" alt="{{ include.alt }}" style="max-width: 100%; height: auto; cursor: zoom-in;" />
+    </summary>
+    <img src="{{ include.src }}" alt="{{ include.alt }}" style="max-width: 100%; height: auto; margin-top: 8px;" />
+  </details>
 </div>
