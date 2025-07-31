@@ -9,7 +9,7 @@ dropdown: true            # enables the dropdown behavior
 children:
   - title: dance experience
     permalink: /creative/dance/
-  - title: photography galleries
+  - title: photography
     permalink: /creative/photography/
 ---
 
