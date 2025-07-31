@@ -1,6 +1,6 @@
 ---
 layout: page
-title: photography
+title: galleries
 description: "trying out a new hobby :)"
 folder: July22nd
 permalink: /creative/photography/
