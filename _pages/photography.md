@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Photography
-description: "Shots from July 22nd — experimenting with composition, light, and texture."
+title: photography
+description: "trying out a new hobby :)"
 folder: July22nd
 permalink: /creative/photography/
 nav: false
