@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 title: July 22, 2025
 category: 2025
 importance: 1
