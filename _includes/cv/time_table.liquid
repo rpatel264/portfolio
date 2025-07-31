@@ -1,6 +1,9 @@
 <p style="color: red; font-weight: bold;">
   DEBUG: Rendering time_table for "{{ entry.title }}" with {{ entry.contents | size }} entries.
 </p>
+<pre style="background:#eee; padding:10px; max-height: 300px; overflow:auto;">
+{{ entry.contents | jsonify }}
+</pre>
 
 <ul class="card-text font-weight-light list-group list-group-flush time-table">
   {% for content in entry.contents %}
