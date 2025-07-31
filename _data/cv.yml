@@ -58,9 +58,25 @@
 - title: Projects
   type: time_table
   contents:
-    - title: All Relevant Projects
-      year: 2020 - Current
-      description: <a href="https://rpatel264.github.io/portfolio/projects/">Link to project page</a>
+    - title: <a href="https://rpatel264.github.io/portfolio/projects/1_project/">Cutoff Blade</a>
+      year: January 2024 - May 2024
+      description: 
+      
+    - title: <a href="https://rpatel264.github.io/portfolio/projects/1_project/">Cutoff Blade</a>
+      year: January 2024 - May 2024
+      description: 
+      
+    - title: <a href="https://rpatel264.github.io/portfolio/projects/2_project/">Transmission</a>
+      year: August 2023 - December 2023
+      description: 
+
+    - title: <a href="https://rpatel264.github.io/portfolio/projects/3_project/">Walking Gait Modeling</a>
+      year: January 2023 - May 2023
+      description: 
+
+    - title: <a href="https://rpatel264.github.io/portfolio/projects/4_project/">Walker</a>
+      year: August 2023 - May 2023
+      description: 
       
 - title: Additional Activities
   type: time_table
