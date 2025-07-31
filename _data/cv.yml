@@ -4,7 +4,7 @@
     - name: Full Name
       value: Rishi Patel
     - name: Date of Birth
-      value: 1st December 2002
+      value: December 1st, 2002
     - name: Languages
       value: English
   
@@ -13,7 +13,7 @@
   contents:
     - title: Bachelors
       institution: University of Illinois, Urbana-Champaign
-      year: 2024
+      year: 2020 - 2024
       description:
         - Studied Mechanical Engineering
 
@@ -22,7 +22,7 @@
   contents:
     - title: Mechanical Engineer
       institution: International Motors
-      year: 2024 - Current
+      year: September 2024 - Current
       description:
         - Designed a modular tractor-trailer assembly in Siemens NX (200+ features), cutting model-build time by 15% and supporting 3 configurable variants
         - Proposed novel modularization concepts, including an air horn redesign, streamlining manufacturing and reducing assembly time by 10%
@@ -30,7 +30,7 @@
 
     - title: Midstream Refining Engineer
       institution: Phillips 66
-      year: 2023
+      year: May 2023 - August 2023
       description:
         - Modeled a reciprocating compressor in SolidWorks and conducted a FEA across 10 load cases, identifying 2 potential failure modes and reducing unplanned outages by 20%
         - Developed proximity probe calibration curves comparing 4140 vs. 4340 Steel, achieving <1% error, therefore enabling 24/7 vibration monitoring from a single probe model saving up to $15K in cost
@@ -38,7 +38,7 @@
 
     - title: Intern
       institution: Abbott Research Park
-      year: 2022 - 2023
+      year: August 2022 - May 2023
 
 - title: Projects
   type: time_table
