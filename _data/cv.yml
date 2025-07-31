@@ -13,7 +13,7 @@
   contents:
     - title: Bachelors
       institution: University of Illinois, Urbana-Champaign
-      year: 2020 - 2024
+      year: August 2020 - May 2024
       description:
         - Studied Mechanical Engineering
 
@@ -40,13 +40,33 @@
       institution: Abbott Research Park
       year: August 2022 - May 2023
 
+- title: Research
+  type: time_table
+  contents:
+    - title: Biomechanical Analysis of Shoulder Strain
+      institution: University of Illinois, Urbana-Champaign
+      year: November 2023 - May 2024
+      description:
+        - Performed medical scans on the shoulders of wheelchair athletes using different bio-imaging technologies
+        - Created a 3D model of different structures of the shoulder using Amira software from the medical scans
+        - Evaluated the 3D models to draw conclusions on degree of strain on the shoulders of wheelchair athletes
+
 - title: Projects
   type: time_table
   contents:
     - title: <al-folio="https://rpatel264.github.io/portfolio/projects/">al-folio</a>
       year: 2020 - Current
       description: All relevant Projects
-
+      
+- title: Additional Activities
+  type: time_table
+  contents:
+    - title: Finance Chair
+      institution: Raas All-Stars
+      year: July 2024 - Current
+      description:
+        - Manage $100k+ annual budget and lead fundraising for Raas All-Stars, a national dance competition
+●       - Retain non-profit status through proper tax documentation and raise sponsorship revenue by 25% YoY
 
 - title: Other Interests
   type: list
