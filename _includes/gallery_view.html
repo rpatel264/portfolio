@@ -1,0 +1,6 @@
+{% assign gallery_folder = page.folder %}
+{% for image in site.static_files %}
+  {% if image.path contains gallery_folder %}
+  <img src="{{ image.path }}" alt="Photo from {{ gallery_folder }}" style="width:300px;">
+  {% endif %}
+{% endfor %}
