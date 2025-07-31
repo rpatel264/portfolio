@@ -1,6 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+# Trigger deploy: rebuild to fix gallery link
 
 title: "Rishi Patel" # the website title (if blank, full name will be used instead)
 first_name: Rishi
