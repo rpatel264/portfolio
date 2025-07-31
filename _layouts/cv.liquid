@@ -125,19 +125,24 @@ layout: default
     </article>
   </div>
 <style>
-  .cv .time-table .item .year {
-    float: none;
+  .cv .year {
     display: block;
+    float: none;
     font-size: 0.9em;
     color: #666;
     margin-bottom: 4px;
   }
 
-  .cv .time-table .item .title,
-  .cv .time-table .item .institution {
+  .cv .title,
+  .cv .institution {
     display: block;
     margin-left: 0;
   }
-</style>
 
+  /* Optional: make sure .item doesn't use flex or floats */
+  .cv .item {
+    display: block;
+    clear: both;
+  }
+</style>
 {% endunless %}
