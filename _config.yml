@@ -153,6 +153,8 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
+baseurl: "/portfolio"
+
 collections:
   books:
     output: true
@@ -165,6 +167,7 @@ collections:
   galleries:
     output: true
     permalink: /creative/photography/:name/
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
