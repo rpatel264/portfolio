@@ -73,7 +73,7 @@ ninja.data = [{
               window.location.href = "/portfolio/books/the_godfather/";
             },},{id: "galleries-july-22-2025",
           title: 'July 22, 2025',
-          description: "Chicago photography on July 22, 2025.",
+          description: "Chicago Photography",
           section: "Galleries",handler: () => {
               window.location.href = "/portfolio/creative/photography/July-22/";
             },},{id: "news-a-simple-inline-announcement",
