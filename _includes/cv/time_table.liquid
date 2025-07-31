@@ -1,68 +1,34 @@
-<p style="color: red; font-weight: bold;">
-  DEBUG: Rendering time_table for "{{ entry.title }}" with {{ entry.contents | size }} entries.
-</p>
-<pre style="background:#eee; padding:10px; max-height: 300px; overflow:auto;">
-{{ entry.contents | jsonify }}
-</pre>
-
 <ul class="card-text font-weight-light list-group list-group-flush time-table">
   {% for content in entry.contents %}
     <li class="list-group-item item">
-      <div class="row no-gutters">
+      <div class="item-container" style="display: flex; flex-wrap: wrap;">
         {% if content.year %}
-          <div class="col-auto text-center" style="width: 75px; flex: 0 0 75px;">
-            <table class="table-cv">
-              <tbody>
-                <tr>
-                  <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle year" style="min-width: 75px">
-                      {{- content.year -}}
-                    </span>
-                  </td>
-                </tr>
-                {% if content.location %}
-                  <tr>
-                    <td>
-                      <p class="location">
-                        <i class="fa-solid fa-location-dot iconlocation"></i>
-                        {{ content.location }}
-                      </p>
-                    </td>
-                  </tr>
-                {% endif %}
-              </tbody>
-            </table>
+          <div class="year-container" style="min-width: 75px; margin-right: 1rem;">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase year">
+              {{- content.year -}}
+            </span>
+            {% if content.location %}
+              <p class="location" style="font-size: 0.8em;">
+                <i class="fa-solid fa-location-dot iconlocation"></i>
+                {{ content.location }}
+              </p>
+            {% endif %}
           </div>
         {% endif %}
-        <div class="col ml-2 mt-2 mt-md-0">
+
+        <div class="content-container" style="flex: 1;">
           {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+            <h6 class="title font-weight-bold">{{ content.title }}</h6>
           {% endif %}
-          {% if content.department or content.institution %}
-            <table class="table-cv ml-1 ml-md-4 institution">
-              <tbody>
-                {% if content.institution %}
-                  <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                    </td>
-                    <td class="institution">{{ content.institution }}</td>
-                  </tr>
-                {% endif %}
-                {% if content.department %}
-                  <tr>
-                    <td style="vertical-align: top; text-align: center" class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
-                    </td>
-                    <td class="department">{{ content.department }}</td>
-                  </tr>
-                {% endif %}
-              </tbody>
-            </table>
+
+          {% if content.institution %}
+            <p class="institution"><i class="fa-solid fa-building-columns iconinstitution"></i> {{ content.institution }}</p>
           {% endif %}
+
           {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
+            <div>{{ content.maindescription }}</div>
           {% endif %}
+
           {% if content.description %}
             <ul class="items">
               {% for item in content.description %}
@@ -71,9 +37,7 @@
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">
                       {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
+                        <li><span class="subitem">{{ subitem }}</span></li>
                       {% endfor %}
                     </ul>
                   {% else %}
@@ -83,6 +47,7 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.items %}
             <ul class="items">
               {% for item in content.items %}
@@ -91,9 +56,7 @@
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">
                       {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
+                        <li><span class="subitem">{{ subitem }}</span></li>
                       {% endfor %}
                     </ul>
                   {% else %}
@@ -103,8 +66,9 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.linkitems %}
-            <div class="container-links ml-1 ml-md-4">
+            <div class="container-links">
               {% for item in content.linkitems %}
                 {% if item.link %}
                   <div class="container-link-button">
