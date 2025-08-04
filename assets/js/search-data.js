@@ -71,6 +71,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/portfolio/books/the_godfather/";
+            },},{id: "galleries-august-2-2025",
+          title: 'August 2, 2025',
+          description: "Chicago Photography 2",
+          section: "Galleries",handler: () => {
+              window.location.href = "/portfolio/creative/photography/August-2/";
             },},{id: "galleries-july-22-2025",
           title: 'July 22, 2025',
           description: "Chicago Photography",
