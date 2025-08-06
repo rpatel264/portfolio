@@ -4,9 +4,10 @@ title: July 22, 2025
 category: 2025
 importance: 2
 description: Chicago Photography 
-img: /portfolio/assets/photo_gallery/July22nd/DSC00049.JPG
+img: /portfolio/assets/photo_gallery/July22nd/DSC00049.jpg
 permalink: /creative/photography/July-22/
 folder: July22nd
 ---
 {% include gallery_view.html %}
+
 
