@@ -1,7 +1,7 @@
 ---
 layout: page
 title: galleries
-description: "trying out a new hobby :)"
+description: ""
 folder: July22nd
 permalink: /creative/photography/
 nav: false
