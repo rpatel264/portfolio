@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Chicago Travel Model
-description: Creating an AI travel guide when visiting Chicago
-img: assets/projectimages/blade/bladeandtube.jpg
+title: Chicago Historical Travel Assistant
+description: An AI-powered assistant that answers questions about Chicago's history, landmarks, and events using historical PDFs.
+img: assets/projectimages/chicago-ai/landing.png
 importance: 1
 category: work
 related_publications: false
@@ -11,38 +11,37 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <p class="text-center my-4">
-  Our team collaborated with Atkore to design a more efficient cutting blade. We simulated various profiles, analyzed stress patterns, and machined a physical prototype for validation. We used CAD and simulation tools to evaluate different blade geometries and material combinations. These visuals show the iterative design process and simulation insights.
+  The Chicago Historical Travel Assistant is a Streamlit app that allows users to query historical documents about Chicago. It uses PDF processing, natural language processing, and sentence-transformer embeddings to provide relevant historical context from uploaded PDFs. This tool demonstrates integrating AI with archival research to make historical knowledge easily accessible.
 </p>
 
 <div class="row justify-content-center text-center">
   <div class="col-md-4 mb-4">
-    {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladeprofiles.png" title="Blade Profiles" alt="Comparing multiple blade designs" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/chicago-ai/streamlit_home.png" title="App Home Screen" alt="Landing page of the Chicago Historical Travel Assistant" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
   <div class="col-md-4 mb-4">
-    {% include figure.liquid loading="eager" path="assets/projectimages/blade/cadprofile.jpg" title="Finalized Profile" alt="CAD model showing finalized blade profile" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/chicago-ai/query_example.png" title="Query Example" alt="User querying the app about the Chicago River reversal" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
   <div class="col-md-4 mb-4">
-    {% include figure.liquid loading="eager" path="assets/projectimages/blade/machinedblade.jpg" title="Aluminum Prototype" alt="Machined aluminum blade prototype" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/chicago-ai/context_result.png" title="Result Context" alt="App displaying historical context from PDF" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 </div>
 <p class="caption text-center">
-  Blade designs were modeled in Solidworks, then evaluated in Ansys to compare stress distribution and edge retention across different profiles and materials.
+  The app retrieves relevant chunks of historical PDFs and displays them with relevance scoring, helping users explore Chicago's history interactively.
 </p>
 
-<!-- 🖼️ Simulation Showcase -->
-<h4 class="text-center mt-5">Simulation Showcase</h4>
+<!-- 🖼️ AI Workflow -->
+<h4 class="text-center mt-5">AI Workflow</h4>
 <div class="row justify-content-center text-center">
   <div class="col-md-6 mb-4">
-    {% include figure.liquid loading="eager" path="assets/projectimages/blade/bladegif.gif" title="Blade Simulation" alt="Animated simulation of blade stress testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/chicago-ai/workflow.png" title="AI Workflow" alt="Diagram of PDF processing and NLP workflow" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <p class="caption text-center">
-  This animation shows simulation results generated with Solidworks and Ansys, analyzing deformation patterns during use.
+  The workflow includes PDF text extraction, chunking, embedding via sentence-transformers, and context retrieval using a query interface built in Streamlit.
 </p>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <p class="text-center my-4">
-  We finalized a new blade design using an optimized material profile and showcased the prototype to Atkore. We also built a base and prepared documentation to support further simulation refinement by future teams.
+  The final Streamlit app allows users to ask questions about Chicago’s historical events, buildings, and landmarks. It makes archival documents interactive and searchable, providing a modern interface for exploring the city’s rich history. A live version is available <a href="https://your-streamlit-app-url.streamlit.app" target="_blank">here</a>.
 </p>
-
