@@ -18,5 +18,5 @@ related_publications: false
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
   The final Streamlit app allows users to ask questions about Chicago’s historical events, buildings, and landmarks. It makes archival documents interactive and searchable, providing a modern interface for exploring the city’s rich history.  
-  A live version is available <a href="https://your-streamlit-app-url.streamlit.app" target="_blank">here</a>.
+  A live version is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">here</a>.
 </div>
