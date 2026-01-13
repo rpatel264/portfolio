@@ -112,6 +112,11 @@ ninja.data = [{
           description: "Collaborative design and prototyping of a blade-based conduit cutter for Atkore, integrated into a walking machine platform.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/4_project/";
+            },},{id: "projects-chicago-travel-model",
+          title: 'Chicago Travel Model',
+          description: "Creating an AI travel guide when visiting Chicago",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/Chicago%20Travel%20Model/";
             },},{
         id: 'social-email',
         title: 'email',
