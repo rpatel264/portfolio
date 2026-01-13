@@ -2,21 +2,21 @@
 layout: page
 title: Chicago Historical Travel Assistant
 description: An AI-powered assistant that answers questions about Chicago's history, landmarks, and events using historical PDFs.
+img: assets/projectimages/Chicago/Travel1.jpg 
 importance: 1
 category: work
-permalink: /projects/chicago-historical-travel-assistant/
 related_publications: false
 ---
 
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
-<p class="text-center my-4">
+<div class="text-center my-4">
   The Chicago Historical Travel Assistant is a Streamlit app that allows users to query historical documents about Chicago. It uses PDF processing, natural language processing, and sentence-transformer embeddings to provide relevant historical context from uploaded PDFs. This tool demonstrates integrating AI with archival research to make historical knowledge easily accessible.
-</p>
+</div>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
-<p class="text-center my-4">
+<div class="text-center my-4">
   The final Streamlit app allows users to ask questions about Chicago’s historical events, buildings, and landmarks. It makes archival documents interactive and searchable, providing a modern interface for exploring the city’s rich history.  
   A live version is available <a href="https://your-streamlit-app-url.streamlit.app" target="_blank">here</a>.
-</p>
+</div>
