@@ -2,7 +2,7 @@
 layout: project
 title: Chicago Historical Travel Assistant
 description: An AI-powered assistant that answers questions about Chicago's history, landmarks, and events using historical PDFs.
-img: assets/projectimages/Chicago/Travel1.jpg
+img: assets/projectimages/Chicago/Travel1.png
 importance: 1
 category: work
 link: "https://your-streamlit-app-url.streamlit.app"
