@@ -3,7 +3,7 @@ layout: page
 title: Transmission Project 
 description: Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability. 
 img: assets/projectimages/transmission/CADassembly.png 
-importance: 2 
+importance: 3 
 category: work 
 related_publications: false 
 ---
