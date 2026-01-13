@@ -3,7 +3,7 @@ layout: page
 title: Walker Design Project 
 description: Collaborative design and prototyping of a blade-based conduit cutter for Atkore, integrated into a walking machine platform. 
 img: assets/projectimages/walker/walkergimage.jpg 
-importance: 4 
+importance: 5 
 category: work 
 related_publications: false 
 ---
