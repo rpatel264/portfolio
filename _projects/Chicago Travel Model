@@ -4,34 +4,19 @@ title: Chicago Historical Travel Assistant
 description: An AI-powered assistant that answers questions about Chicago's history, landmarks, and events using historical PDFs.
 importance: 1
 category: work
+permalink: /projects/chicago-historical-travel-assistant/
 related_publications: false
 ---
+
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <p class="text-center my-4">
-  The Chicago Historical Travel Assistant is a Streamlit app that allows users to query historical documents about Chicago. 
-  It uses PDF processing, natural language processing, and sentence-transformer embeddings to provide relevant historical context from uploaded PDFs. 
-  This tool demonstrates integrating AI with archival research to make historical knowledge easily accessible.
-</p>
-
-<!-- 🖥️ How it Works -->
-<h4 class="text-center mt-5">How It Works</h4>
-<p class="text-center my-4">
-  Users can ask questions about Chicago’s history, landmarks, and events. 
-  The app extracts text from historical PDFs, breaks it into manageable chunks, embeds them with sentence-transformers, 
-  and retrieves relevant context in response to queries. It provides an interactive way to explore historical knowledge.
-</p>
-
-<!-- 🔗 Live App -->
-<h4 class="text-center mt-5">Try It Live</h4>
-<p class="text-center my-4">
-  Experience the app here: 
-  <a href="https://your-streamlit-app-url.streamlit.app" target="_blank">Chicago Historical Travel Assistant</a>
+  The Chicago Historical Travel Assistant is a Streamlit app that allows users to query historical documents about Chicago. It uses PDF processing, natural language processing, and sentence-transformer embeddings to provide relevant historical context from uploaded PDFs. This tool demonstrates integrating AI with archival research to make historical knowledge easily accessible.
 </p>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <p class="text-center my-4">
-  The app makes archival documents searchable and interactive, providing a modern interface for exploring Chicago’s rich history. 
-  It is a showcase of combining AI with historical research.
+  The final Streamlit app allows users to ask questions about Chicago’s historical events, buildings, and landmarks. It makes archival documents interactive and searchable, providing a modern interface for exploring the city’s rich history.  
+  A live version is available <a href="https://your-streamlit-app-url.streamlit.app" target="_blank">here</a>.
 </p>
