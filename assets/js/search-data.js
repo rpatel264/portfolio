@@ -114,7 +114,7 @@ ninja.data = [{
               window.location.href = "/portfolio/projects/4_project/";
             },},{id: "projects-chicago-historical-travel-assistant",
           title: 'Chicago Historical Travel Assistant',
-          description: "An AI-powered assistant that answers questions about Chicago&#39;s history, landmarks, and events using historical PDFs.",
+          description: "An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago&#39;s history, architecture, and events.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Chicago%20Travel%20Model/";
             },},{
