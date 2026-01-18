@@ -22,7 +22,7 @@ related_publications: false
     <li><strong>Semantic Retrieval:</strong> Queries are processed using sentence-transformer embeddings to rank summaries by relevance. Keyword search and optional year filters are also supported.</li>
     <li><strong>User Interface:</strong> A Streamlit web app allows users to type questions about Chicago’s history, landmarks, and architecture, displaying ranked results with citations and source references.</li>
   </ol>
-  
+</div>
   This project demonstrates end-to-end AI system design, integrating archival research with local LLM processing, semantic search, and an interactive web interface.
 </div>
 
