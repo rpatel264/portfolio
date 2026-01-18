@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Chicago Historical Travel Assistant
-description: An AI-powered assistant that answers questions about Chicago's history, landmarks, and events using historical PDFs.
-img: assets/projectimages/Chicago/Travel1.jpg 
+description: An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago's history, architecture, and events.
+img: assets/projectimages/Chicago/Travel1.jpg
 importance: 1
 category: work
 related_publications: false
@@ -11,12 +11,24 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-  The Chicago Historical Travel Assistant is a Streamlit app that allows users to query historical documents about Chicago. It uses PDF processing, natural language processing, and sentence-transformer embeddings to provide relevant historical context from uploaded PDFs. This tool demonstrates integrating AI with archival research to make historical knowledge easily accessible.
+  The Chicago Historical Travel Assistant is a locally-hosted AI system designed to make historical Chicago documents interactive and searchable. The architecture combines PDF processing, natural language processing, and semantic search to deliver factual answers from archival content. 
+  
+  The workflow works as follows:
+  <ol style="text-align:left; display:inline-block; text-align:left; max-width:700px;">
+    <li><strong>PDF Processing:</strong> Raw historical PDFs are loaded and converted to clean text, removing page artifacts and preserving readability.</li>
+    <li><strong>Text Chunking:</strong> Documents are split into 400–600 word chunks to keep information manageable for the AI model.</li>
+    <li><strong>Summarization:</strong> Each chunk is summarized using a locally hosted LLaMA-based model via Ollama, extracting only factual content and avoiding assumptions.</li>
+    <li><strong>Storage:</strong> Summaries and metadata (source PDF, chunk index) are saved in a structured JSON format for efficient retrieval.</li>
+    <li><strong>Semantic Retrieval:</strong> Queries are processed using sentence-transformer embeddings to rank summaries by relevance. Keyword search and optional year filters are also supported.</li>
+    <li><strong>User Interface:</strong> A Streamlit web app allows users to type questions about Chicago’s history, landmarks, and architecture, displaying ranked results with citations and source references.</li>
+  </ol>
+  
+  This project demonstrates end-to-end AI system design, integrating archival research with local LLM processing, semantic search, and an interactive web interface.
 </div>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-  The final Streamlit app allows users to ask questions about Chicago’s historical events, buildings, and landmarks. It makes archival documents interactive and searchable, providing a modern interface for exploring the city’s rich history.  
+  The final Streamlit app allows users to explore Chicago's rich history in a modern, interactive way. Users receive factual, cited summaries of events, landmarks, and architecture, directly sourced from historical PDFs. The system supports semantic ranking, keyword queries, and optional year-based filtering, making archival research fast and intuitive.  
   A live version is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">here</a>.
 </div>
