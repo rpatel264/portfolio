@@ -11,25 +11,48 @@ related_publications: false
 <!-- 🧭 Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-  The Chicago Historical Travel Assistant is a locally-hosted AI system designed to make historical Chicago documents interactive and searchable. The architecture combines PDF processing, natural language processing, and semantic search to deliver factual answers from archival content. 
-  
-  The workflow works as follows:
+The Chicago Historical Travel Assistant is a locally-hosted AI system designed to make historical Chicago documents interactive, searchable, and easy to explore. The system combines **PDF processing, large language model summarization, semantic search, and a web interface** to deliver factual answers from archival content.
 </div>
-  <ol style="text-align:left; display:inline-block; text-align:left; max-width:700px;">
-    <li><strong>PDF Processing:</strong> Raw historical PDFs are loaded and converted to clean text, removing page artifacts and preserving readability.</li>
-    <li><strong>Text Chunking:</strong> Documents are split into 400–600 word chunks to keep information manageable for the AI model.</li>
-    <li><strong>Summarization:</strong> Each chunk is summarized using a locally hosted LLaMA-based model via Ollama, extracting only factual content and avoiding assumptions.</li>
-    <li><strong>Storage:</strong> Summaries and metadata (source PDF, chunk index) are saved in a structured JSON format for efficient retrieval.</li>
-    <li><strong>Semantic Retrieval:</strong> Queries are processed using sentence-transformer embeddings to rank summaries by relevance. Keyword search and optional year filters are also supported.</li>
-    <li><strong>User Interface:</strong> A Streamlit web app allows users to type questions about Chicago’s history, landmarks, and architecture, displaying ranked results with citations and source references.</li>
-  </ol>
+
+<h5 class="mt-4">Architecture and Workflow</h5>
+<div class="text-center my-3">
+The project is built as a modular pipeline with clear separation between data processing, AI summarization, retrieval, and user interface. The workflow can be broken down into six key components:
 </div>
-  This project demonstrates end-to-end AI system design, integrating archival research with local LLM processing, semantic search, and an interactive web interface.
+
+<ol style="text-align:left; display:inline-block; max-width:800px;">
+  <li><strong>PDF Processing:</strong> Historical PDFs are loaded from a local directory. Text is extracted using <code>pdfplumber</code>, cleaning up artifacts from scanned pages and preserving the original structure of paragraphs and headings.</li>
+
+  <li><strong>Text Chunking:</strong> Extracted text is split into 400–600 word chunks. This ensures that each portion of text is small enough for efficient AI summarization while retaining enough context for accurate information retrieval.</li>
+
+  <li><strong>Summarization with Local LLM:</strong> Each chunk is processed by a locally-hosted LLaMA-based model through Ollama. Summaries are strictly factual, avoiding speculative language, and are limited to concise paragraphs. Retries are built in for failed chunk summarizations.</li>
+
+  <li><strong>Data Storage:</strong> Summaries are saved in <code>summary_chunks.json</code> along with metadata such as the source PDF, chunk index, and a short preview. This structured format enables rapid access for search and display.</li>
+
+  <li><strong>Semantic Retrieval:</strong> User queries are encoded using sentence-transformer embeddings and compared with chunk embeddings for relevance ranking. This allows the system to return the most contextually relevant summaries. The system previously supported keyword and year-based filtering but now relies on semantic search for accurate retrieval.</li>
+
+  <li><strong>Web Interface:</strong> A clean Streamlit app allows users to input queries about Chicago's history, architecture, events, and landmarks. Results are displayed in expandable cards with source PDF and chunk citation, along with a relevance score computed from the semantic embeddings.</li>
+</ol>
+
+<div class="text-center my-4">
+  The modular design ensures that each stage of the workflow—data ingestion, summarization, retrieval, and UI—can be maintained and upgraded independently. For example, upgrading to a larger local LLM or integrating new historical PDFs does not require changing the retrieval or frontend code.
 </div>
 
 <!-- 🔧 Final Outcome -->
 <h4 class="text-center mt-5">Final Outcome</h4>
 <div class="text-center my-4">
-  The final Streamlit app allows users to explore Chicago's rich history in a modern, interactive way. Users receive factual, cited summaries of events, landmarks, and architecture, directly sourced from historical PDFs. The system supports semantic ranking, keyword queries, and optional year-based filtering, making archival research fast and intuitive.  
-  A live version is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">here</a>.
+The final Streamlit app enables users to explore Chicago's rich history interactively. Users receive **factually accurate, cited summaries** of historical events, landmarks, and architecture directly sourced from archival PDFs. The semantic search ensures that queries like <em>"why is the river reversed"</em> return precise, contextually relevant information.
+
+A live version of the app is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">here</a>.
 </div>
+
+<!-- 🔗 Technical Highlights -->
+<h5 class="mt-5">Technical Highlights</h5>
+<ul style="max-width:700px; margin:auto;">
+  <li>End-to-end AI pipeline integrating PDF extraction, text chunking, summarization, and semantic retrieval.</li>
+  <li>Local LLaMA-based model via Ollama ensures data privacy and offline capability.</li>
+  <li>Semantic search using sentence-transformer embeddings for highly relevant results.</li>
+  <li>JSON-based storage of summaries and metadata for fast retrieval and easy expansion.</li>
+  <li>Interactive Streamlit interface with expandable results, source citations, and clean design.</li>
+  <li>Robust error handling for summarization failures, including automatic retries.</li>
+</ul>
+
