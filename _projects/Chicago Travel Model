@@ -20,6 +20,25 @@ The Chicago Historical Travel Assistant is a locally-hosted AI system designed t
 The project is built as a modular pipeline with clear separation between data processing, AI summarization, retrieval, and user interface. The workflow can be broken down into six key components:
 </div>
 
+```mermaid
+flowchart LR
+    A[Historical PDFs<br/>Data/Raw/] --> B[PDF Text Extraction<br/>pdfplumber]
+
+    B --> C[Text Chunking<br/>400–600 words]
+
+    C --> D[Local LLM Summarization<br/>Ollama + LLaMA]
+
+    D --> E[Structured Storage<br/>summary_chunks.json]
+
+    E --> F[Semantic Embeddings<br/>Sentence Transformers]
+
+    F --> G[Semantic Search & Ranking]
+
+    G --> H[Streamlit Web App]
+
+    H --> I[User Question<br/>Historical Answers + Sources]
+
+
 <ol style="text-align:left; display:inline-block; max-width:800px;">
   <li><strong>PDF Processing:</strong> Historical PDFs are loaded from a local directory. Text is extracted using <code>pdfplumber</code>, cleaning up artifacts from scanned pages and preserving the original structure of paragraphs and headings.</li>
 
@@ -43,7 +62,7 @@ The project is built as a modular pipeline with clear separation between data pr
 <div class="text-center my-4">
 The final Streamlit app enables users to explore Chicago's rich history interactively. Users receive **factually accurate, cited summaries** of historical events, landmarks, and architecture directly sourced from archival PDFs. The semantic search ensures that queries like <em>"why is the river reversed"</em> return precise, contextually relevant information.
 
-A live version of the app is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">here</a>.
+A live version of the app is available <a href="https://ai-travel-model-rpatel.streamlit.app/" target="_blank">Chicago Historical Travel Assistant</a>.
 </div>
 
 <!-- 🔗 Technical Highlights -->
