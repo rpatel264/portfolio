@@ -23,20 +23,14 @@ The project is built as a modular pipeline with clear separation between data pr
 ```mermaid
 flowchart LR
     A[Historical PDFs<br/>Data/Raw/] --> B[PDF Text Extraction<br/>pdfplumber]
-
     B --> C[Text Chunking<br/>400–600 words]
-
     C --> D[Local LLM Summarization<br/>Ollama + LLaMA]
-
     D --> E[Structured Storage<br/>summary_chunks.json]
-
     E --> F[Semantic Embeddings<br/>Sentence Transformers]
-
     F --> G[Semantic Search & Ranking]
-
     G --> H[Streamlit Web App]
-
     H --> I[User Question<br/>Historical Answers + Sources]
+
 
 
 <ol style="text-align:left; display:inline-block; max-width:800px;">
