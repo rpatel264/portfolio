@@ -280,19 +280,6 @@ The Chicago Historical Travel Assistant is a locally-hosted AI system designed t
 The project is built as a modular pipeline with clear separation between data processing, AI summarization, retrieval, and user interface. The workflow can be broken down into a multi-stage pipeline:
 </div>
 
-```mermaid
-flowchart LR
-    A[Historical PDFs<br>Data/Raw/] --&gt; B[PDF Text Extraction<br>pdfplumber]
-    B --&gt; C[Text Chunking<br>400–600 words]
-    C --&gt; D[Local LLM Summarization<br>Ollama + LLaMA]
-    D --&gt; E[Structured Storage<br>summary_chunks.json]
-    E --&gt; F[Semantic Embeddings<br>Sentence Transformers]
-    F --&gt; G[Semantic Search &amp; Ranking]
-    G --&gt; H[Streamlit Web App]
-    H --&gt; I[User Question<br>Historical Answers + Sources]
-
-
-
 <ol style="text-align:left; display:inline-block; max-width:800px;">
   <li>
 <strong>PDF Processing:</strong> Historical PDFs are loaded from a local directory. Text is extracted using <code>pdfplumber</code>, cleaning up artifacts from scanned pages and preserving the original structure of paragraphs and headings.</li>
