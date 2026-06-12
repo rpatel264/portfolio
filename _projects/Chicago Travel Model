@@ -3,7 +3,7 @@ layout: page
 title: Chicago Historical Travel Assistant
 description: An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago's history, architecture, and events.
 img: assets/projectimages/Chicago/Travel1.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
