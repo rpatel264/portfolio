@@ -3,7 +3,7 @@ layout: page
 title: Cutoff Blade
 description: Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.
 img: assets/projectimages/blade/bladeandtube.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 ---
