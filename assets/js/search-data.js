@@ -117,9 +117,9 @@ ninja.data = [{
           description: "An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago&#39;s history, architecture, and events.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Chicago%20Travel%20Model/";
-            },},{id: "projects-walker-design-project",
-          title: 'Walker Design Project',
-          description: "Collaborative design and prototyping of a blade-based conduit cutter for Atkore, integrated into a walking machine platform.",
+            },},{id: "projects-fitness-center-revit",
+          title: 'Fitness Center - Revit',
+          description: "Fitness center modeled in Revit",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Fitness%20Center%20Revit/";
             },},{
