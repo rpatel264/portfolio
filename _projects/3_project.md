@@ -3,7 +3,7 @@ layout: page
 title: Walking Gait Modeling 
 description: Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools. 
 img: assets/projectimages/slope/skeletalmodel.png 
-importance: 4 
+importance: 5 
 category: work 
 related_publications: false 
 ---
