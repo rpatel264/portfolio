@@ -45,7 +45,7 @@ related_publications: false
 <h4 class="text-center mt-5">Engineering Calculations</h4>
 <div class="row justify-content-center mt-4">
   <div class="col-sm-8 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Calculations.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
 <div class="text-center text-muted mt-2 mb-2" style="font-size: 0.9rem;">
@@ -57,6 +57,7 @@ related_publications: false
   <li>Outdoor air compliance verification per ASHRAE 62.1</li>
   <li>Plumbing fixture unit calculations per IPC standards</li>
 </ul>
+</div>
 
 <!-- BIM Coordination -->
 <h4 class="text-center mt-5">BIM Coordination</h4>
