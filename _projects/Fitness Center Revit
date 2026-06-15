@@ -44,14 +44,14 @@ related_publications: false
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
 <div class="d-flex justify-content-center mt-4">
-  <div class="col-sm-8 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Calculations.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
+  <div class="col-sm-8 mb-3 mx-auto">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
 <div class="text-center text-muted mt-2 mb-2" style="font-size: 0.9rem;">
   Developed a comprehensive HVAC calculation package including:
 </div>
-<ul class="mt-2 mb-4 text-muted" style="max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.9rem;">
+<ul class="text-center text-muted mt-2 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.9rem; list-style-position: inside;">
   <li>Room-by-room airflow requirements using ACH methodology</li>
   <li>Duct sizing with velocity verification against ASHRAE limits</li>
   <li>Outdoor air compliance verification per ASHRAE 62.1</li>
@@ -62,7 +62,7 @@ related_publications: false
 <!-- BIM Coordination -->
 <h4 class="text-center mt-5">BIM Coordination</h4>
 <div class="d-flex justify-content-center mt-4">
-  <div class="col-sm-8 mb-3">
+  <div class="col-sm-8 mb-3 mx-auto">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Navisworks Clash Detection" alt="Navisworks Clash Detection" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
