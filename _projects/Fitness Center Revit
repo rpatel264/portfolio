@@ -39,6 +39,9 @@ Developed a complete architectural floor plan including a training area, men's a
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
 <div class="text-center my-4">
+ <div class="col-sm-4 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
 Developed a comprehensive HVAC calculation package including:
 
 - Room-by-room airflow requirements using ACH methodology
@@ -51,7 +54,7 @@ Developed a comprehensive HVAC calculation package including:
 <h4 class="text-center mt-5">BIM Coordination</h4>
 <div class="text-center my-4">
  <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clasb.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination.
 </div>
