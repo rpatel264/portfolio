@@ -14,11 +14,11 @@ related_publications: false
   Designed and modeled a single-story commercial fitness center in Autodesk Revit, encompassing full architectural and mechanical systems for a 2742 SF facility.
 </div>
 
-<!-- HVAC System Design -->
+<!-- Architectural Design -->
 <h4 class="text-center mt-5">Architectural Design</h4>
 <div class="row justify-content-center text-center mt-4">
-  <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Full Model No Roof.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+ <div class="col-sm-4 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 
 <div class="text-center caption mt-2 text-muted" style="font-size: 0.9rem;">
@@ -29,13 +29,7 @@ Developed a complete architectural floor plan including a training area, men's a
 <h4 class="text-center mt-5">HVAC System Design</h4>
 <div class="row justify-content-center text-center mt-4">
   <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/transmissiondrawing.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
-  </div>
-  <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/CADassembly.png" title="CAD assembly" alt="CAD model showing our transmission project" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
-  </div>
-  <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/Transmissionsetup.png" title="Fully built assembly" alt="Finalized transmission" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L2 - Mechanical.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
   </div>
 </div>
 <div class="text-center caption mt-2 text-muted" style="font-size: 0.9rem;">
@@ -56,5 +50,8 @@ Developed a comprehensive HVAC calculation package including:
 <!-- BIM Coordination -->
 <h4 class="text-center mt-5">BIM Coordination</h4>
 <div class="text-center my-4">
+ <div class="col-sm-4 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clasb.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
 Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination.
 </div>
