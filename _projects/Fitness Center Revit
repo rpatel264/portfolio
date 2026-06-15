@@ -1,59 +1,57 @@
---- 
-layout: page 
+---
+layout: page
 title: Fitness Center BIM Model
-description: Fitness Center Modeled in Revit 
+description: Single-story commercial fitness center modeled in Autodesk Revit 2026 with full HVAC system design and BIM coordination
 img: assets/projectimages/Fitness Center/3D - Full Building With Roof.png
 importance: 1
-category: work 
-related_publications: false 
+category: work
+related_publications: false
 ---
 
-<!-- 🧭 Project Overview -->
+<!-- Project Overview -->
 <h4 class="text-center mt-5">Project Overview</h4>
 <div class="text-center my-4">
-  Designed and modeled a single-story commercial fitness center in Autodesk Revit, encompassing full architectural and mechanical systems for a 2742 SF facility.
+  Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,881 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
 </div>
 
 <!-- Architectural Design -->
 <h4 class="text-center mt-5">Architectural Design</h4>
-<div class="row justify-content-center text-center mt-4">
- <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="Architectural Floor Plan" alt="Architectural Floor Plan" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
   </div>
-
-<div class="text-center caption mt-2 text-muted" style="font-size: 0.9rem;">
-Developed a complete architectural floor plan including a training area, men's and women's locker rooms, reception, office, and mechanical room. Applied finish materials and equipment families throughout the model including gym equipment, locker room fixtures, and office furniture.
+  <div class="col-sm-6 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/3D - Full Building With Roof.png" title="3D Architectural View" alt="3D Architectural View" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
+  </div>
+</div>
+<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+  Developed a complete architectural floor plan including a training area, men's and women's locker rooms, reception, office, and mechanical room. Applied finish materials and equipment families throughout the model including gym equipment, locker room fixtures, and office furniture.
 </div>
 
 <!-- HVAC System Design -->
 <h4 class="text-center mt-5">HVAC System Design</h4>
-<div class="row justify-content-center text-center mt-4">
-  <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L2 - Mechanical.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L2 - Mechanical.png" title="Mechanical Floor Plan" alt="Mechanical Floor Plan" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
   </div>
-<div class="text-center caption mt-2 text-muted" style="font-size: 0.9rem;">
-  Designed a complete VAV-based HVAC system serving six zones with independently controlled airflow. System components include an air handling unit, supply ductwork, return ductwork, exhaust system, and outdoor air intake. Diffuser placement and duct sizing were determined through engineering calculations referencing ASHRAE 62.1 and ASHRAE 90.1 standards.
+  <div class="col-sm-6 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/3D - HVAC.png" title="3D HVAC View" alt="3D HVAC View" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
+  </div>
+</div>
+<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+  Designed a complete HVAC system serving six zones including an air handling unit, supply ductwork, return ductwork, locker room exhaust system, and outdoor air intake. Diffuser placement and duct sizing were determined through engineering calculations referencing ASHRAE 62.1 and 90.1 standards.
 </div>
 
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
-<div class="text-center my-4">
- <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-8 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Calculations.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
   </div>
-Developed a comprehensive HVAC calculation package including:
-
-- Room-by-room airflow requirements using ACH methodology
-- Duct sizing with velocity verification against ASHRAE limits
-- Outdoor air compliance verification per ASHRAE 62.1
-- Plumbing fixture unit calculations per IPC standards
 </div>
-
-<!-- BIM Coordination -->
-<h4 class="text-center mt-5">BIM Coordination</h4>
-<div class="text-center my-4">
- <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
-  </div>
-Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination.
+<div class="text-center text-muted mt-2 mb-2" style="font-size: 0.9rem;">
+  Developed a comprehensive HVAC calculation package including:
 </div>
+<ul class="mt-2 mb-4" style="max-width: 600px; margin: auto; font-size: 0.9rem;">
+  <li>Room-by-room airflow requirements using ACH methodology</li>
+  <li>Duct sizing with velocity
