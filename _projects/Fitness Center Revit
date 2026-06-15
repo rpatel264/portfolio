@@ -18,8 +18,16 @@ related_publications: false
 <h4 class="text-center mt-5">Architectural Design</h4>
 <div class="row justify-content-center text-center mt-4">
   <div class="col-sm-4 mb-3">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Full Model No Roof.png" title="CAD Model" alt="CAD drawing of walker mechanism" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/transmissiondrawing.png" title="Transmission drawing" alt="rough drawing" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
+  <div class="col-sm-4 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/CADassembly.png" title="CAD assembly" alt="CAD model showing our transmission project" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
+  <div class="col-sm-4 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/transmission/Transmissionsetup.png" title="Fully built assembly" alt="Finalized transmission" class="img-fluid rounded z-depth-1" style="height: 250px; object-fit: contain;" %}
+  </div>
 </div>
+
 
 <div class="text-center caption mt-2 text-muted" style="font-size: 0.9rem;">
 Developed a complete architectural floor plan including a training area, men's and women's locker rooms, reception, office, and mechanical room. Applied finish materials and equipment families throughout the model including gym equipment, locker room fixtures, and office furniture.</div>
