@@ -14,7 +14,8 @@ related_publications: false
   <div class="col-sm-6 mb-3">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Full Model No Roof.png" title="Architectural Floor Plan" alt="Architectural Floor Plan" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
-<div class="text-center my-4">
+</div>
+<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
   Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,881 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
 </div>
 
@@ -24,6 +25,7 @@ related_publications: false
   <div class="col-sm-6 mb-3">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="Architectural Floor Plan" alt="Architectural Floor Plan" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
+</div>
 <div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
   Developed a complete architectural floor plan including a training area, men's and women's locker rooms, reception, office, and mechanical room. Applied finish materials and equipment families throughout the model including gym equipment, locker room fixtures, and office furniture.
 </div>
@@ -33,6 +35,7 @@ related_publications: false
 <div class="row justify-content-center mt-4">
   <div class="col-sm-6 mb-3">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L2 - Mechanical.png" title="Mechanical Floor Plan" alt="Mechanical Floor Plan" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
+  </div>
 </div>
 <div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
   Designed a complete HVAC system serving six zones including an air handling unit, supply ductwork, return ductwork, locker room exhaust system, and outdoor air intake. Diffuser placement and duct sizing were determined through engineering calculations referencing ASHRAE 62.1 and 90.1 standards.
@@ -48,7 +51,7 @@ related_publications: false
 <div class="text-center text-muted mt-2 mb-2" style="font-size: 0.9rem;">
   Developed a comprehensive HVAC calculation package including:
 </div>
-<ul class="mt-2 mb-4" style="max-width: 600px; margin: auto; font-size: 0.9rem;">
+<ul class="mt-2 mb-4" style="max-width: 600px; margin: auto; font-size: 0.9rem; color: #6c757d;">
   <li>Room-by-room airflow requirements using ACH methodology</li>
   <li>Duct sizing with velocity verification against ASHRAE limits</li>
   <li>Outdoor air compliance verification per ASHRAE 62.1</li>
