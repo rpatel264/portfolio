@@ -119,7 +119,7 @@ ninja.data = [{
               window.location.href = "/portfolio/projects/Chicago%20Travel%20Model/";
             },},{id: "projects-fitness-center-bim-model",
           title: 'Fitness Center BIM Model',
-          description: "Fitness Center Modeled in Revit",
+          description: "Single-story commercial fitness center modeled in Autodesk Revit 2026 with full HVAC system design and BIM coordination",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Fitness%20Center%20Revit/";
             },},{
