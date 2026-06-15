@@ -15,7 +15,7 @@ related_publications: false
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Full Model No Roof.png" title="Full Building Model" alt="Full Building Model" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
-<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+<div class="text-center mt-2 mb-4" style="font-size: 0.9rem; color: #212529;">
   Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,881 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
 </div>
 
@@ -26,7 +26,7 @@ related_publications: false
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L1 - Architectural.png" title="Architectural Floor Plan" alt="Architectural Floor Plan" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
-<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+<div class="text-center mt-2 mb-4" style="font-size: 0.9rem; color: #212529;">
   Developed a complete architectural floor plan including a training area, men's and women's locker rooms, reception, office, and mechanical room. Applied finish materials and equipment families throughout the model including gym equipment, locker room fixtures, and office furniture.
 </div>
 
@@ -37,21 +37,21 @@ related_publications: false
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/L2 - Mechanical.png" title="Mechanical Floor Plan" alt="Mechanical Floor Plan" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
-<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+<div class="text-center mt-2 mb-4" style="font-size: 0.9rem; color: #212529;">
   Designed a complete HVAC system serving six zones including an air handling unit, supply ductwork, return ductwork, locker room exhaust system, and outdoor air intake. Diffuser placement and duct sizing were determined through engineering calculations referencing ASHRAE 62.1 and 90.1 standards.
 </div>
 
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
 <div class="d-flex justify-content-center mt-4">
-  <div class="col-sm-8 mb-3 mx-auto">
+  <div style="width: 66%; max-width: 700px;">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
-<div class="text-center text-muted mt-2 mb-2" style="font-size: 0.9rem;">
+<div class="text-center mt-2 mb-2" style="font-size: 0.9rem; color: #212529;">
   Developed a comprehensive HVAC calculation package including:
 </div>
-<ul class="text-center text-muted mt-2 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.9rem; list-style-position: inside;">
+<ul class="text-center mt-2 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.9rem; list-style-position: inside; color: #212529;">
   <li>Room-by-room airflow requirements using ACH methodology</li>
   <li>Duct sizing with velocity verification against ASHRAE limits</li>
   <li>Outdoor air compliance verification per ASHRAE 62.1</li>
@@ -62,10 +62,10 @@ related_publications: false
 <!-- BIM Coordination -->
 <h4 class="text-center mt-5">BIM Coordination</h4>
 <div class="d-flex justify-content-center mt-4">
-  <div class="col-sm-8 mb-3 mx-auto">
+  <div style="width: 66%; max-width: 700px;">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="Navisworks Clash Detection" alt="Navisworks Clash Detection" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
 </div>
-<div class="text-center text-muted mt-2 mb-4" style="font-size: 0.9rem;">
+<div class="text-center mt-2 mb-4" style="font-size: 0.9rem; color: #212529;">
   Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination.
 </div>
