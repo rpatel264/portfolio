@@ -38,8 +38,7 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-4">
-  Designed a complete HVAC system serving six zones including an air handling unit, supply ductwork, return ductwork, locker room exhaust system, and outdoor air intake. Diffuser placement and duct sizing were determined through engineering calculations referencing ASHRAE 62.1 and 90.1 standards.
-</div>
+  Designed a complete HVAC system serving six zones including an air handling unit, supply ductwork, return ductwork, locker room exhaust system, and outdoor air intake. Supply diffusers, return grilles, and exhaust grilles were sized using ACH-based CFM calculations with duct velocities verified against ASHRAE limits of 1,500 FPM for supply and 1,200 FPM for return. Outdoor air intake was sized to meet ASHRAE 62.1 minimum ventilation requirements of 1,037 CFM.
 
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
@@ -49,7 +48,7 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-2">
-  Developed a comprehensive HVAC calculation package including:
+  All calculations were performed manually and documented in a multi-tab Excel workbook referencing ASHRAE 62.1 and IPC standards. Key results include a total supply airflow of 1,992 CFM for the training area and a building-wide outdoor air requirement of 1,037 CFM.It was developed using a comprehensive HVAC calculation package including:
 </div>
 <ul class="text-center mt-2 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; list-style-position: inside;">
   <li>Room-by-room airflow requirements using ACH methodology</li>
@@ -67,5 +66,5 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-4">
-  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination.
+  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination. Clashes were reviewed and categorized — duct wall penetrations were documented as intentional design elements requiring field sleeves, and diffuser installations were confirmed as approved ceiling penetrations. This workflow mirrors standard VDC coordination practice used on commercial construction projects."
 </div>
