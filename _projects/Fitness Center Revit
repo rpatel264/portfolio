@@ -19,7 +19,7 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-4">
-  Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,881 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
+  Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,984 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
 </div>
 
 <!-- Architectural Design -->
@@ -70,5 +70,5 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-4">
-  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes — duct wall penetrations were documented as intentional design elements requiring field sleeves, and diffuser installations were confirmed as approved ceiling penetrations. This workflow mirrors standard VDC coordination practice used on commercial construction projects.
+  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, duct wall penetrations were documented as intentional design elements requiring field sleeves, and diffuser installations were confirmed as approved ceiling penetrations. This workflow mirrors standard VDC coordination practice used on commercial construction projects.
 </div>
