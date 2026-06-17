@@ -92,12 +92,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-walker-design-project",
-          title: 'Walker Design Project',
-          description: "Collaborative design for Atkore an integrated walking machine platform.",
-          section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/4_project/";
-            },},{id: "projects-chicago-historical-travel-assistant",
+          section: "News",},{id: "projects-chicago-historical-travel-assistant",
           title: 'Chicago Historical Travel Assistant',
           description: "An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago&#39;s history, architecture, and events.",
           section: "Projects",handler: () => {
@@ -117,6 +112,11 @@ ninja.data = [{
           description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Transmission/";
+            },},{id: "projects-walker-design-project",
+          title: 'Walker Design Project',
+          description: "Collaborative design for Atkore an integrated walking machine platform.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/Walker%20Design/";
             },},{id: "projects-walking-gait-modeling",
           title: 'Walking Gait Modeling',
           description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
