@@ -92,12 +92,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-transmission-project",
-          title: 'Transmission Project',
-          description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
-          section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/2_project/";
-            },},{id: "projects-walking-gait-modeling",
+          section: "News",},{id: "projects-walking-gait-modeling",
           title: 'Walking Gait Modeling',
           description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
           section: "Projects",handler: () => {
@@ -122,6 +117,11 @@ ninja.data = [{
           description: "Single-story commercial fitness center modeled in Autodesk Revit 2026 with full HVAC system design and BIM coordination",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Fitness%20Center%20Revit/";
+            },},{id: "projects-transmission-project",
+          title: 'Transmission Project',
+          description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/Transmission/";
             },},{
         id: 'social-email',
         title: 'email',
