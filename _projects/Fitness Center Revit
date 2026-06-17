@@ -42,15 +42,23 @@ related_publications: false
 
 <!-- Engineering Calculations -->
 <h4 class="text-center mt-5">Engineering Calculations</h4>
-<div class="text-center mt-4">
-  <div class="d-inline-block" style="width: 66%; max-width: 700px;">
-    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Clash.png" title="HVAC Calculations" alt="HVAC Calculations" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
-  </div>
-</div>
 <div class="text-center mt-2 mb-2">
-  All calculations were performed manually and documented in a multi-tab Excel workbook referencing ASHRAE 62.1 and IPC standards. Key results include a total supply airflow of 1,992 CFM for the training area and a building-wide outdoor air requirement of 1,037 CFM.It was developed using a comprehensive HVAC calculation package including:
+  All calculations were performed manually and documented in a multi-tab Excel workbook 
+  referencing ASHRAE 62.1 and IPC standards. Key results include a total supply airflow 
+  of 1,992 CFM for the training area and a building-wide outdoor air requirement of 
+  1,037 CFM. Use the tabs below to navigate between calculation sheets.
 </div>
-<ul class="text-center mt-2 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; list-style-position: inside;">
+<div class="mt-4 mb-2" style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #dee2e6;">
+  <iframe
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpbsFfbv7ANAbUFWc4pwZy1lQCTzLdA_1-oXyedAE9Oe-b6mD1wDKoYc3P5iz_OA/pubhtml?widget=true&amp;headers=false"
+    width="100%"
+    height="500px"
+    frameborder="0"
+    scrolling="yes"
+    style="border: none;">
+  </iframe>
+</div>
+<ul class="text-center mt-3 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; list-style-position: inside;">
   <li>Room-by-room airflow requirements using ACH methodology</li>
   <li>Duct sizing with velocity verification against ASHRAE limits</li>
   <li>Outdoor air compliance verification per ASHRAE 62.1</li>
