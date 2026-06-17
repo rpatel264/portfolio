@@ -92,12 +92,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-walking-gait-modeling",
-          title: 'Walking Gait Modeling',
-          description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
-          section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/3_project/";
-            },},{id: "projects-walker-design-project",
+          section: "News",},{id: "projects-walker-design-project",
           title: 'Walker Design Project',
           description: "Collaborative design for Atkore an integrated walking machine platform.",
           section: "Projects",handler: () => {
@@ -122,6 +117,11 @@ ninja.data = [{
           description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Transmission/";
+            },},{id: "projects-walking-gait-modeling",
+          title: 'Walking Gait Modeling',
+          description: "Analyzing joint angles and torques during uphill and level walking using biomechanical simulation tools.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/Walking%20Gait/";
             },},{
         id: 'social-email',
         title: 'email',
