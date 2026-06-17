@@ -70,5 +70,5 @@ related_publications: false
   </div>
 </div>
 <div class="text-center mt-2 mb-4">
-  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes, categorizing duct wall penetrations and diffuser installations as intentional design elements requiring field sleeve coordination. Clashes were reviewed and categorized — duct wall penetrations were documented as intentional design elements requiring field sleeves, and diffuser installations were confirmed as approved ceiling penetrations. This workflow mirrors standard VDC coordination practice used on commercial construction projects."
+  Exported the Revit model to Navisworks Manage and performed clash detection between HVAC and architectural elements. Identified and reviewed 35 clashes — duct wall penetrations were documented as intentional design elements requiring field sleeves, and diffuser installations were confirmed as approved ceiling penetrations. This workflow mirrors standard VDC coordination practice used on commercial construction projects.
 </div>
