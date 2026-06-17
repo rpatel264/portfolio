@@ -44,9 +44,9 @@ related_publications: false
 <h4 class="text-center mt-5">Engineering Calculations</h4>
 <div class="text-center mt-2 mb-2">
   All calculations were performed manually and documented in a multi-tab Excel workbook 
-  referencing ASHRAE 62.1 and IPC standards. Key results include a total supply airflow 
-  of 1,992 CFM for the training area and a building-wide outdoor air requirement of 
-  1,037 CFM. Use the tabs below to navigate between calculation sheets.
+  referencing ASHRAE 62.1 and IPC standards. Calculations include room-by-room airflow requirements using ACH methodology, duct sizing with velocity verification and outdoor air compliance. Key results include a total supply airflow 
+  of 3,984 CFM for the training area and a building-wide outdoor air requirement of 
+  1,034 CFM. Use the tabs below to navigate between calculation sheets.
 </div>
 <div class="mt-4 mb-2" style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #dee2e6;">
   <iframe
@@ -57,13 +57,6 @@ related_publications: false
     scrolling="yes"
     style="border: none;">
   </iframe>
-</div>
-<ul class="text-center mt-3 mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto; list-style-position: inside;">
-  <li>Room-by-room airflow requirements using ACH methodology</li>
-  <li>Duct sizing with velocity verification against ASHRAE limits</li>
-  <li>Outdoor air compliance verification per ASHRAE 62.1</li>
-  <li>Plumbing fixture unit calculations per IPC standards</li>
-</ul>
 </div>
 
 <!-- BIM Coordination -->
