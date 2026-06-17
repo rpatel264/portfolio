@@ -92,12 +92,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-cutoff-blade",
-          title: 'Cutoff Blade',
-          description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
-          section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/1_project/";
-            },},{id: "projects-transmission-project",
+          section: "News",},{id: "projects-transmission-project",
           title: 'Transmission Project',
           description: "Designing and fabricating a custom multi-speed transmission system to lift hanging weights with braking capability.",
           section: "Projects",handler: () => {
@@ -117,6 +112,11 @@ ninja.data = [{
           description: "An AI-powered assistant that extracts, summarizes, and searches historical PDFs to answer questions about Chicago&#39;s history, architecture, and events.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/Chicago%20Travel%20Model/";
+            },},{id: "projects-cutoff-blade",
+          title: 'Cutoff Blade',
+          description: "Redesigning and prototyping a new blade for conduit cutting in collaboration with Atkore.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/Cutoff%20Blade/";
             },},{id: "projects-fitness-center-bim-model",
           title: 'Fitness Center BIM Model',
           description: "Single-story commercial fitness center modeled in Autodesk Revit 2026 with full HVAC system design and BIM coordination",
