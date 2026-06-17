@@ -14,6 +14,9 @@ related_publications: false
   <div class="col-sm-6 mb-3">
     {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Full Model No Roof.png" title="Full Building Model" alt="Full Building Model" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
   </div>
+<div class="col-sm-6 mb-3">
+    {% include figure.liquid loading="eager" path="assets/projectimages/Fitness Center/Half Building.png" title="Full Building Model" alt="Full Building Model" class="img-fluid rounded z-depth-1" zoomable=true style="height: 300px; object-fit: contain;" %}
+  </div>
 </div>
 <div class="text-center mt-2 mb-4">
   Designed and modeled a single-story commercial fitness center in Autodesk Revit 2026, encompassing full architectural and mechanical systems for a 3,881 SF facility located in Chicago, Illinois. Engineering calculations were developed referencing ASHRAE 62.1 and 90.1 standards, and clash detection was performed in Navisworks Manage.
